@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".IndustrialDisasterGuidleline"
+    tools:showIn="@layout/activity_industrial_disaster_guidleline"
+    android:background="@drawable/ip2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guideline"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textColor="@color/white1"
+                android:layout_marginBottom="12dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/btnguideindust"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/click_for_more_details"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:textColor="#9E2121"
+                android:background="#009E2121"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="202dp"
+                android:layout_height="2dp"
+                android:layout_alignParentRight="true"
+                android:background="#E40F0F" />
+
+
+
+
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

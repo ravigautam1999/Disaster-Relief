@@ -1,0 +1,596 @@
+<resources>
+    <string name="app_name">Disaster Relief</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Disaster Relief</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_share">Share</string>
+
+    <string name="menu_about">About Us</string>
+    <string name="menu_intro">Introduction</string>
+    <string name="menu_nature">Nature Disaster</string>
+    <string name="menu_man">Man Made Disasters</string>
+    <string name="menu_cycle">Disaster Management Cycle</string>
+    <string name="menu_kit">Disaster Emergency Kit</string>
+    <string name="menu_game">Game Based Learning</string>
+    <string name="menu_ref">References</string>
+    <string name="menu_help">Help Line</string>
+    <string name="menu_ngos">Connect With NGOs</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_activity_natute_disaster">NatureDisaster</string>
+    <string name="title_activity_man_made_disaster">ManMadeDisaster</string>
+    <string name="title_activity_disaster_management_cycle">DisasterManagementCycle</string>
+    <string name="title_activity_disater_emergency_kit">DisaterEmergencyKit</string>
+    <string name="title_activity_game_based_learnig">GameBasedLearnig</string>
+    <string name="title_activity_references">References</string>
+    <string name="title_activity_help_line">HelpLine</string>
+    <string name="title_activity_earth_quakes">EarthQuakes</string>
+    <string name="title_activity_floods">Floods</string>
+    <string name="title_activity_landslides">Landslides</string>
+    <string name="title_activity_cyclones">Cyclones</string>
+    <string name="title_activity_tsunamis">Tsunamis</string>
+    <string name="title_activity_drought">Drought</string>
+    <string name="title_activity_urban_flood">UrbanFlood</string>
+    <string name="title_activity_heat_wave">HeatWave</string>
+    <string name="title_activity_earth_quake_info">EarthQuake Info</string>
+    <string name="title_activity_earth_quake_map">EarthQuake Map</string>
+    <string name="title_activity_earth_quake_do">EarthQuake Do and Donot</string>
+    <string name="title_activity_earth_quake_recover">EarthQuake Recover</string>
+    <string name="title_activity_earth_quake_emergency">EarthQuake Emergency</string>
+    <string name="title_activity_earth_quake_guideline">EarthQuake Guideline</string>
+    <string name="title_activity_floods_info">Floods Info</string>
+    <string name="title_activity_floods_map">Floods Map</string>
+    <string name="title_activity_floods_do">Floods Do and Donot</string>
+    <string name="title_activity_floods_emergency">Floods Emergency</string>
+    <string name="title_activity_floods_guidelines">Floods Guidelines</string>
+    <string name="title_activity_landslides_info">Landslides Info</string>
+    <string name="title_activity_landslide_map">Landslide Map</string>
+    <string name="title_activity_landslide_do">LandslideDo</string>
+    <string name="title_activity_landslides_recover">Landslides Recover</string>
+    <string name="title_activity_landslides_emergency">Landslides Emergency</string>
+    <string name="title_activity_landslides_guideline">Landslides Guideline</string>
+    <string name="title_activity_cyclones_info">Cyclones Info</string>
+    <string name="title_activity_cyclones_map">Cyclones Map</string>
+    <string name="title_activity_cyclones_do">Cyclones Do and Donot</string>
+    <string name="title_activity_cyclones_recovery">Cyclones Recovery</string>
+    <string name="title_activity_cyclones_emergency">Cyclones Emergency</string>
+    <string name="title_activity_cyclones_guideline">Cyclones Guideline</string>
+    <string name="title_activity_tsunamis_info">Tsunamis Info</string>
+    <string name="title_activity_tsunamis_map">Tsunamis Map</string>
+    <string name="title_activity_tsunamis_do">Tsunamis Do and Donot</string>
+    <string name="title_activity_tsunamis_recovery">Tsunamis Recovery</string>
+    <string name="title_activity_tsunamis_emergency">Tsunamis Emergency</string>
+    <string name="title_activity_tsunamis_guideline">Tsunamis Guideline</string>
+    <string name="title_activity_drought_info">DroughtInfo</string>
+    <string name="title_activity_drought_do">Drought Do and Donot</string>
+    <string name="title_activity_urban_flood_info">Urban Flood Info</string>
+    <string name="title_activity_urban_flood_do">Urban Flood Do and Donot</string>
+    <string name="title_activity_urban_flood_recovery">Urban Flood Recovery</string>
+    <string name="title_activity_urban_flood_emergency">Urban Flood Emergency</string>
+    <string name="title_activity_urban_flood_guideline">Urban Flood Guideline</string>
+    <string name="title_activity_heat_wave_info">HeatWave Info</string>
+    <string name="title_activity_heat_wave_do">HeatWave Do and Donot</string>
+    <string name="title_activity_heat_wave_recovery">HeatWave Recovery</string>
+    <string name="title_activity_heat_wav_emergency">HeatWave Emergency</string>
+    <string name="title_activity_nuclear_disasters">Nuclear Disasters</string>
+    <string name="title_activity_industrialand_chemical_disasters">Industrial and Chemical Disasters
+    </string>
+    <string name="title_activity_biological_disasters">Biological Disasters</string>
+    <string name="title_activity_nuclear_disasters_info">Nuclear Disasters Info</string>
+    <string name="title_activity_nuclear_disasters_do">Do and Donot</string>
+    <string name="title_activity_nuclear_disasters_guideline">Guideline</string>
+    <string name="title_activity_industrial_disaster_info">Infomormation</string>
+    <string name="title_activity_industrial_disaster_common">Common Hazardous</string>
+    <string name="title_activity_industria_disaster_do">Do and Donot</string>
+    <string name="title_activity_industrial_disaster_guidleline">Guidleline
+    </string>
+    <string name="title_activity_biological_disasters_info">Information</string>
+    <string name="title_activity_biological_disasters_do">Do and Donot</string>
+    <string name="title_activity_biological_disasters_emergency">Emergency
+    </string>
+    <string name="title_activity_biological_disasters_guideline">Guideline
+    </string>
+    <string name="information">Information</string>
+    <string name="zone_and_map">Zone and Map</string>
+    <string name="do_s_and_dont_s">Do\'s and Dont\'s</string>
+    <string name="recovery_and_build">Recovery and Build</string>
+
+    <string name="about">
+        "The National Disaster Management Authority (NDMA), headed by the Prime Minister of India, is the apex body for Disaster Management in India. Setting up of NDMA and the creation of an enabling environment for institutional mechanisms at the State and District levels is mandated by the Disaster Management Act, 2005.\n\n"
+"Empowering Stakeholders for Improving the Effectiveness of Disaster Management in India\n\n"
+    </string>
+    <string name="indroduction">Introduction</string>
+    <string name="indroductiontext">
+        "Disasters are as old as human history but the dramatic increase and the damage caused by them in the recent past have become a cause of national and international concern.\n\n"
+"‘Disaster’ is defined as a crisis situation causing wide spread damage which exceeds ability to recover. Thus, by definition, there cannot be a perfect ideal system that prevents damage, because then it would not be a disaster. It has to suffocate our ability to recover. Only then it can be called as ‘disaster’. The disasters often differ in quantity of damage caused or in quality of the type of medical consequences.\n\n"
+"<b>Disaster management</b> is the discipline of dealing with and avoiding both natural and manmade disasters. It is the discipline of dealing with and avoiding risks. This discipline involves preparedness, response and recovery in order to lessen the impact of disasters. Through some safety measures, these disasters could be avoided to some extent.\n\n"
+"For detailed information on disaster management in India (Click here)\n\n"
+"These are some of the general measures to be kept in mind during Disasters:\n"
+"1. Shout for Help- In case of any emergency, shout for help. There will be people around who might come for help.\n"
+"2. Call for Ambulance- Make sure that you recall all the emergency contact numbers. You should keep these numbers handy with you.\n"
+"3. Most Important- Always keep First-aid kit in the house, public/ private vehicle and work place.\n\n""Your first aid kit should be well equipped with Adhesive tape, bandages, Three medium and three large sterilized dressing, Cotton wool Cotton buds, Disposable (gloves/Tongue depressor), Tweezers, scissors and safety pins.\n"
+    </string>
+    <string name="about1">About</string>
+    <string name="doandnot">"Do's and Dont's"</string>
+    <string name="Map">Zone and Map</string>
+    <string name="recovery">Recovery and Build</string>
+    <string name="emergency">Emergency Kit</string>
+    <string name="guideline">Guideline</string>
+    <string name="common">Common Hazardous Chemicals</string>
+
+    <string name="NuInfo">
+        "<b>Nuclear and Radiological Disaster</b>\n\n"
+"The growth in the application of nuclear science and technology in the fields of power generation, medicine, industry, agriculture, research and defence has led to an increase in the risk of occurrence of Nuclear and Radiological emergencies.\n\n"
+"India has traditionally been vulnerable to natural disasters on account of its unique geo climatic conditions and it has, of late, like all other countries in the world, become equally vulnerable to various man-made disasters.\n\n"
+"Any radiation incident resulting in or having a potential to result in exposure and/or contamination of the workers or the public in excess of the respective permissible limits can lead to a nuclear/radiological emergency.\n\n"
+"Sad memories of the use of nuclear weapons dropped on Hiroshima and Nagasaki, and the wide publicity given to the reactor accidents at Three Mile Island (TMI) in USA and Chernobyl in erstwhile USSR, have strongly influenced the public perception of any nuclear emergency or disaster to be most often linked, erroneously though, to only these events. Even though such situations may not easily be repeated, one must be prepared to face nuclear/radiological emergencies of lower magnitudes and ensure that the impact of such an emergency (which,for a given magnitude, is likely to be much greater today because of higher population densities coupled with an enhanced urban infrastructure due to economic prosperity) is always kept under control.\n\n"
+"For improving the quality of life in society, India has embarked upon a large programme of using nuclear energy for generation of electricity. As on date, India has 17 power reactors and five research reactors in operation along with six power reactors under construction. It is also planned to explore setting up Thorium based reactors to meet its ever increasing energy needs. Further, the country utilises adioisotopes in a variety of applications in the non-power sector, viz., in the field of industry, agriculture, medicine, research, etc. Due to the inherent safety culture, the best safety practices and standards followed in these applications and effective regulation by the Atomic Energy Regulatory Board, the radiation dose to which the persons working in nuclear/radiation facilities are exposed to, is well within the permissible limits and the risk of its impact on the public domain is very low.\n\n"
+"However, nuclear emergencies can still arise due to factors beyond the control of the operating agencies; e.g., human error, system failure, sabotage, earthquake, cyclone, flood, etc. Such failures, even though of very low probability, may lead to an on-site or off-site emergency. To combat this, proper emergency preparedness plans must be in place so that there is minimum avoidable loss of life, livelihood, property and impact on the environment.\n\n"
+    </string>
+    <string name="NuDO">
+        "The probability of a major accident at nuclear facilities leading to the release of large quantities of radioactivity into the environment is always ensured to be negligibly small. However, even in the event of a major release into the environment, the prompt and effective implementation of countermeasures can reduce the radiological consequences for the public.\n\n"
+"Preparedness for Nuclear/Radiological Emergencies\n\n"
+"The handling of nuclear emergencies requires coordination among different service groups of the nuclear facility. In the event of potential radiological consequences in the public domain, all the authorities at the three levels, i.e., district, state and central, will play a vital role.\n\n"
+"Major Responsibilities of Nuclear Power Plant Operators\n\n"
+"This includes the arrangements required to promptly classify an emergency, mitigate the emergency, notify and recommend protective actions off the site consistent with international guidelines, protect those on site, obtain off-site assistance, conduct environmental monitoring of the affected area and assist off-site officials in keeping the public informed.\n\n"
+"Major Responsibilities of Off-Site Officials\n\n"
+"This includes the arrangements required to promptly implement protective actions and countermeasures in the affected area.\n\n"
+"Emergency Preparedness for Nuclear Power Plants\n\n"
+"Since the proper implementation of countermeasures can significantly reduce the consequences of an emergency situation, it is mandatory for all nuclear facilities that there must be a comprehensive emergency preparedness plan. Prior to the issuance of a license for the operation of a nuclear facility, the AERB ensures that the facility has the Emergency Response Manuals for the three main types of emergencies, viz., plant, on-site and off-site, and that the plans are in place to handle these types of emergencies. The operators of nuclear facilities must make an assessment of the type and quantum of release of radioactivity under various accident conditions and the extent to which it can spread into the environment.\n\n"
+"Handling a Plant Emergency\n\n"
+"When the radiological consequences of an abnormal situation are expected to remain confined to the plant boundary or a section of the plant, it is described as a plant emergency. Nuclear facilities in the country already have the following provisions for the detection, classification, notification and mitigation of any emergency situation:\n\n"
+"(i)Emergency operating procedures for the assessment of an emergency condition and its mitigation.\n\n"
+"(ii) Pre-identification of any facility-specific, abnormal situation for classification of a plant and site emergency.  \n\n"
+"(iii)Facility-specific, approved nuclear emergency response plans specifying the jobs of all the functionaries who have assigned roles during the emergency.\n\n"
+"(iv)Alerting the plant personnel by sounding the emergency siren and making an emergency announcement.\n\n"
+"(v)Adequate means for communicating a notification to the emergency response organisations at the facility, the district and state authorities, CMG of DAE and the central government authorities.\n\n"
+"(vi)Identified assembly locations for plant personnel and casual visitors for their accounting, and assessment of persons trapped in the radiological areas.\n\n"
+"(vii)Formation of rescue teams and activation of a treatment area and decontamination centre.\n\n"
+"(viii)Radiation survey around the plant and outside the plant and site boundaries.\n\n"
+"(ix)Assessment of wind speed, wind direction and the affected sector around the nuclear facility.\n\n"
+"(x)Whenever required, the nuclear facility is able to mobilise the services of the ambulance and paramedical staff at its site.\n\n"
+"(xi) Equipment and materials for handling a nuclear emergency are kept at a designated place of the nuclear facility and ERC.\n\n"
+"Handling On-Site Emergencies\n\n"
+"An accidental release of radioactivity or the potential of release of activity extending beyond the plant, but confined to the site boundary, constitutes a site emergency condition. In addition to all the provisions applicable in a plant emergency, the following additional provisions are ensured:\n\n"
+"(i)Extensive radiological survey for an assessment of the radiological conditions within the site boundary of the nuclear facility.\n\n"
+"(ii)Suitable prophylaxis to be made available at all assembly areas for administration to plant personnel, in case the situation demands.\n\n"
+"(iii)Identification of temporary shelters within the facility/site for shifting plant personnel, in case required.\n\n"
+"(iv)Provision of a fleet of vehicles for evacuation of plant personnel from the site to a safer place.\n\n"
+"(v)Provision of fixed and portable contamination monitors to check contaminated personnel/vehicles leaving the site.\n\n"
+"(vi)On sensing the potential of release of radioactivity which can transgress into the public domain, the concerned district authorities are alerted to be on standby for emergency operations in the public domain.\n\n"
+"(vii)Radiological monitoring of the environment in the EPZ (16 km radius around the plant).\n\n"
+"Handling Off-Site Emergencies\n\n"
+"On recognising the potential for an uncontrolled release of radioactivity into the public domain, the concerned district authorities are alerted to be on standby for emergency response operations. In addition to all the provisions applicable in plant emergency and site emergency, the following additional provisions are to be ensured for handling a nuclear emergency in the public domain:\n\n"
+"(i)Pre-identification of plant conditions which can lead to an emergency in the public domain.\n\n"
+"(ii)An assessment of the radiological status at the site boundary and in the public domain.\n\n"
+"For handling of an off-site emergency condition in an NPP, there is an off-site emergency committee headed by the district magistrate of the concerned district and supported by the district subcommittee, which include chiefs of all public service departments relevant to emergency management in the district and also the Head of the Site Emergency Committee of the nuclear facility for technical advice. This committee takes decisions pertaining to the handling of a nuclear emergency outside the site boundary and ensures implementation of countermeasures such as sheltering, prophylaxis and evacuation and resettlement, including maintenance of law and order and civil amenities. All the activities pertaining to the handling of an off-site emergency are guided and coordinated from a pre-designated emergency response centre located outside the boundary of the nuclear facility. The information and broadcasting department of the district, in association with an authorised information officer, ensures the smooth flow of information to the media to avoid panic and spreading of rumours.\n\n"
+"<b>DOs \n\n</b>"
+"Go indoors. Stay inside.Switch on the radio/television and look out for public announcements from your local authority.Close doors/windows.Cover all food, water and consume only such covered items.If in the open, cover your face and body with a wet handkerchief, towel, dhoti or sari. Return home, change/remove clothes. Have a complete wash and use fresh clothing.Extend full cooperation to local authorities and obey their instructions completely  be it for taking medication, evacuation, etc.You must be aware of nuclear radiation hazard. Discuss on Nuclear radiation safety among children and family members, to reduce their fear of radiation.\n\n"
+"<b>Donts</b>\n\n"
+"Do not panic.Do not believe in rumours passed on by word of mouth from one person to another.Do not stay outside/or go outside.As far as possible, AVOID water from open wells/ponds; exposed crops and vegetables; food, water or milk from outside.Do not disobey any instruction of the district or civil defence authorities who would be doing their best to ensure the safety of you, your family and your property.\n\n"
+    </string>
+    <string name="NuGuid">
+"Click for more details "
+    </string>
+
+    <string name="ChInfo">
+        "Chemical, being at the core of modern industrial systems, has attained a very serious concern for disaster management within government, private sector and community at large. Chemical disasters may be traumatic in their impacts on human beings and have resulted in the casualties and also damages nature and property. The elements which are at highest risks due to chemical disaster primarily include the industrial plant, its employees  workers, hazardous chemicals vehicles, the residents of nearby settlements, adjacent buildings, occupants and surrounding community. Chemical disasters may arise in number of ways, such as:-\n\n"
+"Process and safety systems failures\n\n"
+"-Human errors\n\n"
+"-Technical errors\n\n"
+"-Management errors\n\n"
+"Induced effect of natural calamitiesAccidents during the transportationHazardous waste processing/ disposalTerrorist attack/ unrest leading to sabotage\n\n"
+"Status of Chemical Disaster Risk in India\n\n"
+"India has witnessed the world’s worst chemical (industrial) disaster “Bhopal Gas Tragedy” in the year 1984. The Bhopal Gas tragedy was most devastating chemical accident in history, where over 2500 people died due to accidental release of toxic gas Methyl Iso Cyanate (MIC)."
+"Such accidents are significant in terms of injuries, pain, suffering, loss of lives, damage to property and environment. India continued to witness a series of chemical accidents even after Bhopal had demonstrated the vulnerability of the country. Only in last decade, 130 significant chemical accidents reported in India, which resulted into 259 deaths and 563 number of major injured."
+"There are about 1861 Major Accident Hazard (MAH) units, spread across 298 districts and 25 states  3 Union Territories, in all zones of country. Besides, there are thousands of registered and hazardous factories (below MAH criteria) and un-organized sectors dealing with numerous range of hazardous material posing serious and complex levels of disaster risks."
+"Safety initiatives taken in India to address chemical risk\n\n"
+"The comprehensive legal/ institutional framework exists in our country. A number of regulations covering the safety in transportation, liability, insurance and compensations have been enacted.\n\n"
+"Following are the relevant provisions on chemical disaster management, prevailing in country:-\n\n"
+"Explosives Act 1884 - Petroleum Act 1934Factories Act 1948 - Insecticides Act 1968Environment Protection Act 1986 - Motor Vehicles Act 1988Public Liability Insurance Act 1991 - Disaster Management Act 2005\n\n"
+"Government of India has further reinforced the legal framework on chemical safety and management of chemical accidents by enacting new rules such as MSIHC Rules, EPPR Rules, SMPV Rules, CMV Rules, Gas Cylinder Rules, Hazardous Waste Rules, Dock Workers Rules and by way of amendments to them. The National Disaster Management Authority (NDMA) of India had come out with very specific guidelines on Chemical Disaster Management. The guidelines have been prepared to provide the directions to ministries, departments and state authorities for the preparation of their detailed disaster management plans. These guidelines call for a proactive, participatory, multi-disciplinary and multi-sectoral approach at various levels for chemical disaster preparedness and response. Further, NDMA has provided specific inputs to the GOM for avoidance of future chemical disasters in the country, along with suggested amendments on the existing framework. NDMA is also working on revamping of CIFs ( Chief Inspectorate of Factories) to strengthen chemical safety in India. In addition, MoEF and NDMA are in process of finalizing the National Action Plan on Chemical Industrial Disaster Management (NAP-CIDM), which will act as the roadmap for chemical disaster management in India.\n\n"
+    </string>
+    <string name="ChCommon">
+        "Guiding Instructions of 15 most commonly used hazardous chemicals\n\n"
+"Chemical, being at the core of modern industrial systems, has attained a very serious concern for disaster management within government, private sector and community at large. Chemical disasters may be traumatic in their impacts on human beings and have resulted in the casualties and also damages nature and property. The elements which are at highest risks due to chemical disaster primarily include the industrial plant, its employees  workers, hazardous chemicals vehicles, the residents of nearby settlements, adjacent buildings, occupants and surrounding community. Chemical disasters may arise in number of ways, such as:-\n\n"
+"AcetoneAcetylene GasAmmonia GasArgon GasBenzeneCaustic Soda (Sodium Hydroxide)Chlorine GasHydrochloric AcidHydrogenLPG (Liquefied Petroleum Gas)Methanol (Methyl Alcohol)NaphthaPhosphoric AcidSulphuric AcidTri Nitro Toluene (TNT)\n\n"
+    </string>
+    <string name="ChDo">
+        "Precautions to be taken during and after the Chemical (Industrial) Accidents\n\n"
+"Do not panic, evacuate calmly and quickly perpendicular to wind direction through the designated escape routeKeep a wet handkerchief or piece of cloth/ sari on face during evacuationKeep the sick, elderly, weak, handicapped and other people who are unable to evacuate inside house and close all the doors and windows tightly.Do not consume the uncovered food/ water etc open to the air, drink only from bottleChange into fresh clothing after reaching safe place/ shelter, and wish hands properlyInform Fire  Emergency Services, Police and medical services from safe location by calling 101, 100 and 108 respectively.Listen to PA (Public Addressal) System of the plant/ factory, local radio/ TV channels for advice from district administration/fire/health/police and other concerned authoritiesProvide correct and accurate information to government official.Inform others on occurrence of event at public gathering places (like school, shopping centre, theatre etc.).Don’t pay attention to the rumours and don’t spread rumours.\n\n"
+"General Precautions During Normal Time\n\n"
+"Do not smoke, lit fire or spark in the identified hazardous areaSensitize the community living near the industrial units and they should be more vigilant about the nature of industrial units and associated risks.Keep the contact numbers of nearest hazardous industry, fire station, police station, control room, health services and district control room, for emergency use.Avoid housing near the industries producing or processing the hazardous chemicals, if possible.Participate in all the capacity building programmes organized by the government/ voluntary organizations / industrial units.Take part in preparing disaster management plan for the community and identify safe shelter along with safe and easy access routes.Prepare a family disaster management plan and explain it to all the family members.Make the family/ neighbours aware of the basic characteristics of various poisonous/ hazardous chemicals and the first aid required to treat them.Adequate number of personal protective equipments needs to be made available, to deal with emergency situation.Prepare an emergency kit of items and essentials in the house, including medicines, documents and valuables.\n\n"
+    </string>
+    <string name="ChGuid">
+"Click for more details"
+    </string>
+
+    <string name="BioInfo">
+        "Biological disasters are causative of process or phenomenon of organic origin or conveyed by biological vectors, including exposure to pathogenic micro-organisms, toxins and bioactive substances that may cause loss of life, injury, illness or other health impacts, property damage, loss of livelihoods and services, social and economic disruption, or environmental damage. Examples of biological disasters include outbreaks of epidemic diseases, plant or animal contagion, insect or other animal plagues and infestation. Biological disasters may be in the form of:-\n\n"
+"Epidemic affecting a disproportionately large number of individuals within a population, community, or region at the same time, examples being Cholera, Plague, Japanese Encephalitis (JE)/Acute Encephalitis Syndrome (AES); or,\n\n"
+"Pandemic is an epidemic that spreads across a large region, that is, a continent, or even worldwide of existing, emerging or reemerging diseases and pestilences, example being Influenza H1N1 (Swine Flu).\n\n"
+    </string>
+    <string name="BioDo">
+        "Plan for Family Biological Disaster Plan.Preparation by ensuring Prevention measures:-Personal cleanliness - daily bath, don’t grow long nails and wear clean clothes.Hand Hygiene (Wash hands with soap and water before preparing food or eating, after passing stools, coughing or sneezing). The steps of hand washing are:-\n\n"
+"(i)Step 1 : Wash palms and fingers\n"
+"(i)Step 2 : Wash back of hands.\n"
+"(iii)Step 3 :Wash fingers and knuckles\n"
+"(iv)Step 4 : Wash thumbs\n"
+"(v)Step 5 : Wash fingertips\n"
+"(vi)Step 6 : Wash wrists\n"
+"Eat nutritious and balanced food.Immunisation state should be up to date.Prevent overcrowding.Good ventilation.Protect from hot and cold weather.Health Education.Surveillance.Take a First Aid and Cardio-Pulmonary Resuscitation (CPR) training.Subscribe to a Medical Insurance Plan.\n\n"
+"DO’s  DON’TS\n\n"
+"DIARRHOEAL GROUP OF DISEASES INCLUDING CHOLERA\n\n"
+"Do’s\n\n"
+"Hand Hygiene.Encourage drinking of water from a safe source or water that has been disinfected (chlorinated). Add bleaching powder in all community wells at regular intervals. Use water pumped out from India Mark II hand pumps, if installed in the village/community.Drink boiled potable water in an emergency that has been boiled for at least 15 minutes and consumed it the same day.Promote storage of water in narrow mouthed container.Cook food thoroughly especially meat, poultry, eggs and seafood until it is steaming and eat it while it is still hot.Ensure cooked meat and poultry is safe and no part of the meat discoloured or foul smelling, or in the case of egg, their shells are not cracked.If food is not eaten immediately, reheat cooked until it is steaming hot prior to serving.Keep food items covered.Increase fluid intake as soon as diarrhoea starts by drinking ORS solution or home-made preparation of Table Salt 5 grams (1 teaspoon) in and 20 grams (4 teaspoons) of Sugar dissolved in 1 litre of drinking water.Encourage banana eating, which provides potassium.Continue feeding children when they are sick and to continue breastfeeding if the child is being breast fed.Refer the diarrhoea case to the nearest health facility in case of the following : Child is irritable, restless or lethargic or unconscious: eating or drinking poorly; child has marked thirst; child has fever or blood in stool.\n\n"
+"Don’ts\n\n"
+"Do not drink water from unsafe sources.Do not eat uncooked food unless it is peeled or shelled.Do not leave cooked food at room temperature longer than 2 hours.Do not consume cut fruits from vendors.Do not defecate in open area.Do not give access to rats and houseflies in your premises.\n\n"
+"RESPIRATORY GROUP OF DISEASES LIKE TUBERCULOSIS, INFLUENZA, CHICKENPOX, MENINGITIS\n\n"
+"Do’s and Don’ts:\n\n"
+"Avoid close contact with people who are having respiratory illness.The sick person should stay at home, and avoid going into the community, school/office, public places for at least 24 hours after symptoms have resolved.Sick persons at home should keep distance from others.Respiratory Hygiene/Cough Etiquette:-Cover the nose/mouth with a handkerchief/ tissue paper when coughing or sneezing which should be disposed off in dustbins;Perform hand hygiene (e.g., frequent hand washing with soap and water, alcohol-based hand rub, or antiseptic hand wash) and thoroughly dried preferably using disposable tissue/ paper/ towel after contact after having contact with respiratory secretions and contaminated objects/materials.Triple layer surgical Mask of standard and certified make should be worn by Suspected/ probable/confirmed cases of influenza or by the care provider in home care settings and close family contacts of such cases undergoing home care.Get plenty of sleep, be physically active, manage your stress, drink plenty of fluids, and eat nutritious food.Avoid smoking.Persons who have difficulty breathing or shortness of breath should seek immediate medical attention and report to the nearby hospital.If sick persons must go into the community (e.g., to seek medical care), then they should wear a face mask or use a handkerchief or tissues to cover any coughing and sneezing so as to reduce the risk of spreading the infection in the community.Immunization status should be up to date as per National Universal Immunisation Programme.\n\n"
+"MOSQUITO BORNE DISEASES LIKE MALARIA, DENGUE, FILARIA, CHIKUNGUNYA\n\n"
+"Do’s\n\n"
+"Follow “sun-down sleeves-down” approach. Wear clothes that cover arms and legs.Prevent water collections on ground and other places to prevent malaria breeding.Empty water containers at least once a week.Remove water from coolers from time to time.Cover and seal any septic tanks.Use Mosquito Nets preferably Insecticide Treated Bed Nets (ITBN).Apply insect repellants while sleeping to keep away mosquitoes.Seek medical advice in case of rashes, mental irritation or unconsciousness..\n\n"
+"Don’ts\n\n"
+"Do not encourage children to wear shorts and half sleeved clothing.Do not allow water to stagnate.Do not allow discarded items to accumulate such as tires, tubes, empty coconut shells, household items and objects wherein water may collect.Do not bathe in village ponds and allow cattle to take bath in the same pond\n\n"
+    </string>
+    <string name="BioEmergency">
+
+    </string>
+    <string name="BioGuid">
+"Click for more details"
+    </string>
+
+    <string name="DisasterManagementCycle">Disaster Management Cycle</string>
+    <string name="DisasterManagementCycleInfo">
+        "Disaster management cycle includes the following stages/ phases:\n\n"
+"1.Response phase\n"
+"2.Recovery/Rehabilitation phase\n"
+"3.Risk Reduction/ Mitigation phase\n"
+"4.Preparedness Phase\n\n"
+"Disaster Phase:This is the phase during which the event takes place. This damage / loss may be that of human life, loss of property, loss of environment or loss of health.\n\n"
+"Response Phase:This is the period which is immediately followed by the occurrence of the disaster. In this situation, all individuals respond to the disaster, but in their own ways.\n\n"
+"Recovery Phase:This is the phase when victims actually realize the impact of disaster. It is the phase when all medical help has arrived and people have settled from the adversities of the event.\n\n"
+"Risk Reduction Phase:During this phase, measures are taken so that in case of next disaster the extent or impact is lessened. This process of making the impact less severe is called "Mitigation".\n\n"
+"Preparedness Phase:This phase basically involves development of awareness among the population on general aspects of disaster. This includes education on warning signs of disasters, methods of safe and successful evacuation and first aid measures.\n\n"
+"Disposal of dead bodies in emergency conditions\n\n"
+    </string>
+    <string name="EmergencyKit">Disaster Emergency Kit</string>
+    <string name="EmergencyKitInfo">
+
+        "1.In case of a crisis situation, you should be equipped with a Battery operated torch and radio, a battery operated radio will help you know what the current situation in your region.\n\n"
+        "2.Ensure that you are carrying enough food(dry and canned foods). Ideal foods are: Shelf-stable (no refrigeration required), low in salt, and do not require cooking.\n\n"
+        "3.Pack the hygiene items you need to stay comfortable, but don’t over do it. Toilet paper, cotton bandanna (for face mask or covering head), baby wipes, soap are essentials.\n\n"
+        "4.In a disaster, water supplies may be cut off or contaminated. Store enough water for everyone in your family to last for at least 3 days.\n\n"
+        "5.First Aid kit: Get a roll of gauze, some gauze pads, medical tape, some painkillers, alcohol wipes, some burn/wound cream and some petroleum jelly or other moisturizer. You’ll have to make your own band aids from gauze and tape, but you’ll be able to cover most other minor injuries.\n\n"
+        "6.Keep some cash in the kit. If there is an emergency that causes the banks to close or the ATM s aren t available, you may find that you will need it.\n\n"
+        "7.Keep a list of doctors and family contacts in your kit, along with your personal information. If something happens to you, who should we call? Do you have allergies? Who are you and where do you live?\n\n"
+        "8.Keep all these things as they would help you in a crisis situation\n\n"
+        "<ui><li>Radio  battery operated\n</li><li>Batteries\n</li><li>Flashlight\n</li><li>Whistle Dust\n</li><li>maskPocket\n</li><li>knife\n</li></ui>"
+
+
+
+
+
+    </string>
+
+
+    <string name="EarthInfo">
+        "<b>Earthquake\n\n</b>"
+"An earthquake is a phenomenon that occurs without warning and involves violent shaking of the ground and everything over it. It results from the release of accumulated stress of the moving lithospheric or crustal plates. The earths crust is divided into seven major plates, that are about 50 miles thick, which move slowly and continuously over the earths interior and several minor plates. Earthquakes are tectonic in origin; that is the moving plates are responsible for the occurrence of violent shakes. The occurrence of an earthquake in a populated area may cause numerous casualties and injuries as well as extensive damage to property.\n\n"
+"The Earthquake Risk in India\n\n"
+"Indias increasing population and extensive unscientific constructions mushrooming all over, including multistoried luxury apartments, huge factory buildings, gigantic malls, supermarkets as well as warehouses and masonry buildings keep - India at high risk. During the last 15 years, the country has experienced 10 major earthquakes that have resulted in over 20,000 deaths. As per the current seismic zone map of the country (IS 1893: 2002), over 59 per cent of Indias land area is under threat of moderate to severe seismic hazard- that means it is prone to shaking of MSK Intensity VII and above (BMTPC, 2006). In fact, the entire Himalayan belt is considered prone to great earthquakes of magnitude exceeding 8.0-; and in a relatively short span of about 50 years, four such earthquakes have occurred: 1897 Shillong (M8.7); 1905 Kangra (M8.0); 1934 Bihar-Nepal (M8.3); and 1950 Assam-Tibet (M8.6). Scientific publications have warned of the likelihood of the occurrence of very severe earthquakes in the Himalayan region, which could adversely affect the lives of several million people in India.\n\n"
+"At one time regions of the country away from the Himalayas and other inter-plate boundaries were considered to be relatively safe from damaging earthquakes. However, in the recent past, even these areas have experienced devastating earthquakes, albeit of lower magnitude than the Himalayan earthquakes. The Koyna earthquake in 1967 led to revision of the seismic zoning map, resulting in deletion of the non-seismic zone from the map. The areas surrounding Koyna were also re-designated to Seismic Zone IV, indicating high hazard. The occurrence of the Killari earthquake in 1993 resulted in further revision of the seismic zoning map in which the low hazard zone or Seismic Zone I was merged with Seismic Zone II, and some parts of Deccan and Peninsular India were brought under Seismic Zone III consisting of areas designated as moderate hazard zone areas. Recent research suggests that as understanding of the seismic hazard of these regions increases, more areas assigned as low hazard may be re-designated to higher level of seismic hazard, or vice-versa.\n\n"
+"The North-Eastern part of the country continues to experience moderate to large earthquakes at frequent intervals including the two great earthquakes mentioned above. Since 1950, the region has experienced several moderate earthquakes. On an average, the region experiences an earthquake with a magnitude greater than 6.0 every year. The Andaman and Nicobar Islands are also situated on an inter-plate boundary and frequently experience damaging earthquakes.\n\"
+"The increase in earthquake risk is due to a spurt in developmental activities driven by urbanization, economic development and the globalization of Indias economy. The increase in use of high-technology equipment and tools in manufacturing and service industries has also made them susceptible to disruption due to relatively moderate ground shaking. As a result, loss of human life is not the only determinant of earthquake risk any more. Severe economic losses leading to the collapse of the local or regional economy after an earthquake may have long-term adverse consequences for the entire country. This effect would be further magnified if an earthquake affects a mega-city, such as Delhi or Mumbai.\n\n"
+    </string>
+    <string name="EarthDo">
+        "<b>What to Do Before an Earthquake/n/n</b>"
+"Repair deep plaster cracks in ceilings and foundations. Get expert advice if there are signs of structural defects.Anchor overhead lighting fixtures to the ceiling.Follow BIS codes relevant to your area for building standardsFasten shelves securely to walls.Place large or heavy objects on lower shelves.Store breakable items such as bottled foods, glass, and china in low, closed cabinets with latches.Hang heavy items such as pictures and mirrors away from beds, settees, and anywhere that people sit.Brace overhead light and fan fixtures.Repair defective electrical wiring and leaky gas connections. These are potential fire risks.Secure water heaters, LPG cylinders etc., by strapping them to the walls or bolting to the floor.Store weed killers, pesticides, and flammable products securely in closed cabinets with latches and on bottom shelves.Identify safe places indoors and outdoors./n/n"
+"Under strong dining table, bedAgainst an inside wallAway from where glass could shatter around windows, mirrors, pictures, or where heavy bookcases or other heavy furniture could fall overIn the open, away from buildings, trees, telephone and electrical lines, flyovers and bridgesKnow emergency telephone numbers (such as those of doctors, hospitals, the police, etc)Educate yourself and family membersAwareness Generation Resources for Earthquake Diasaster ManagementDisaster(Earthquake) Resistant Construction PracticeTechno Legal Regime for Safe Construction Practice (Model Amendment in Town  Country Planning Legislations, Regulation for Land Use Zoning and Building Byelaws for Structural Safety)Past Programmes/Projects, Resource Materials on Earthquake Risk Management./n/n"
+"Have a disaster emergency kit ready/n/n"
+"Battery operated torch with extra batteriesBattery operated radioFirst aid kit and manualEmergency food (dry items) and water (packed and sealed)Candles and matches in a waterproof containerKnifeChlorine tablets or powdered water purifiersCan opener.Essential medicinesCash and credit cardsThick ropes and cordsSturdy shoes/n/n"
+"Develop an emergency communication plan/n/n"
+"In case family members are separated from one another during an earthquake (a real possibility during the day when adults are at work and children are at school), develop a plan for reuniting after the disaster.Ask an out-of-state relative or friend to serve as the family contact after the disaster; it is often easier to call long distance. Make sure everyone in the family knows the name, address, and phone number of the contact person./n/n"
+"Help your community get ready/n/n"
+"Publish a special section in your local newspaper with emergency information on earthquakes. Localize the information by printing the phone numbers of local emergency services offices and hospitals.Conduct week-long series on locating hazards in the home.Work with local emergency services and officials to prepare special reports for people with mobility impairment on what to do during an earthquake.Provide tips on conducting earthquake drills in the home.Interview representatives of the gas, electric, and water companies about shutting off utilities.Work together in your community to apply your knowledge to building codes, retrofitting programmes, hazard hunts, and neighborhood and family emergency plans./n/n"
+"What to Do During an Earthquake/n/n"
+"If indoors/n/n"
+"DROP to the ground; take COVER by getting under a sturdy table or other piece of furniture; and HOLD ON until the shaking stops. If there is no a table or desk near you, cover your face and head with your arms and crouch in an inside corner of the building.Protect yourself by staying under the lintel of an inner door, in the corner of a room, under a table or even under a bed.Stay away from glass, windows, outside doors and walls, and anything that could fall, (such as lighting fixtures or furniture).Stay in bed if you are there when the earthquake strikes. Hold on and protect your head with a pillow, unless you are under a heavy light fixture that could fall. In that case, move to the nearest safe place.Use a doorway for shelter only if it is in close proximity to you and if you know it is a strongly supported, load bearing doorway.Stay inside until the shaking stops and it is safe to go outside. Research has shown that most injuries occur when people inside buildings attempt to move to a different location inside the building or try to leave.Be aware that the electricity may go out or the sprinkler systems or fire alarms may turn on./n/n"
+"If outdoors/n/n"
+"Do not move from where you are. However, move away from buildings, trees, streetlights, and utility wires.If you are in open space, stay there until the shaking stops. The greatest danger exists directly outside buildings; at exits; and alongside exterior walls. Most earthquake-related casualties result from collapsing walls, flying glass, and falling objects./n/n"
+"If in a moving vehicle/n/n"
+"Stop as quickly as safety permits and stay in the vehicle. Avoid stopping near or under buildings, trees, overpasses, and utility wires.Proceed cautiously once the earthquake has stopped. Avoid roads, bridges, or ramps that might have been damaged by the earthquake./n/n"
+"If trapped under debris/n/n"
+"Do not light a match.Do not move about or kick up dust.Cover your mouth with a handkerchief or clothing.Tap on a pipe or wall so rescuers can locate you. Use a whistle if one is available. Shout only as a last resort. Shouting can cause you to inhale dangerous amounts of dust./n/n"
+    </string>
+    <string name="EarthMap">
+
+    </string>
+
+    <string name="EarthRecover">
+        "<b>What to Do After an Earthquake</b>/n/n"
+        "<ui><li>Keep calm, switch on the radio/TV and obey any instructions you hear on it.\n</li>
+            <li>Keep away from beaches and low banks of rivers. Huge waves may sweep in.\n</li>
+            <li>Be prepared to expect aftershocks.\n</li>
+            <li>Turn off the water, gas and electricity.\n</li>
+            <li>Do not smoke and do not light matches or use a cigarette lighter. Do not turn on switches. There may be gas leaks or short-circuits. Use a torch.\n</li>
+            <li>If there is a fire, try to put it out. If you cannot, call the fire brigade.\n</li>
+            <li>If people are seriously injured, do not move them unless they are in danger.\n</li>
+            <li>Immediately clean up any inflammable products that may have spilled (alcohol, paint, etc).\n</li>
+            <li>If you know that people have been buried, tell the rescue teams. Do not rush and do not worsen the situation of injured persons or your own situation.\n</li>
+            <li>Avoid places where there are loose electric wires and do not touch any metal object in contact with them.\n</li>
+            <li>Do not drink water from open containers without having examined it and filtered it through a sieve, a filter or an ordinary clean cloth.\n</li>
+            <li>If your home is badly damaged, you will have to leave it. Collect water containers, food, and ordinary and special medicines (for persons with heart complaints, diabetes, etc.)\n</li>
+            <li>Do not re-enter badly damaged buildings and do not go near damaged structures\n</li>
+        </ui>"
+
+"
+    </string>
+    <string name="EarthGuideline">
+        "The National Disaster Management Authority has released Guidelines on Management of Earthquakes. These Guidelines were prepared by NDMA, and released by Shri Shivraj Patil, the Honble Home Minister, in the presence of Shri Kapil Sibal, Honble Minister for Science and Technology and Earth Sciences and Gen. NC Vij, PVSM, UYSM, AVSM (Retd.) Honble Vice Chairman, NDMA and Prof. N. Vinod Chandra Menon, Member, NDMA at Hall No.4, Vigyan Bhawan, New Delhi on 16 May 2007. Secretaries of Govt. of India, relief commissioners, resident commissioners of State Governments and other eminent experts in the field of earthquake management were present at the function.\n"
+    </string>
+
+    <string name="FloodInfo">
+        "<b>Floods\n\n</b>"
+"India is highly vulnerable to floods. Out of the total geographical area of 329 million hectares (mha), more than 40 mha is flood prone. Floods are a recurrent phenomenon, which cause huge loss of lives and damage to livelihood systems, property, infrastructure and public utilities. It is a cause for concern that flood related damages show an increasing trend. The average annual flood damage in the last 10 years period from 1996 to 2005 was Rs. 4745 crore as compared to Rs. 1805 crore, the corresponding average for the previous 53 years. This can be attributed to many reasons including a steep increase in population, rapid urbanization growing developmental and economic activities in flood plains coupled with global warming.\n\n"
+"An average every year, 75 lakh hectares of land is affected, 1600 lives are lost and the damage caused to crops, houses and public utilities is Rs.1805 crores due to floods. The maximum number of lives (11,316) was lost in the year 1977. The frequency of major floods is more than once in five years.\n\n"
+"Floods have also occurred in areas, which were earlier not considered flood prone. An effort has been made in these Guidelines to cover the entire gamut of Flood Management. Eighty per cent of the precipitation takes place in the monsoon months from June to September. The rivers a bring heavy sediment load from catchments. These, coupled with inadequate carrying capacity of rivers are responsible for causing floods, drainage congestion and erosion of river-banks. Cyclones, cyclonic circulations and cloud bursts cause flash floods and lead to huge losses. It is a fact that some of the rivers causing damage in India originate in neighboring countries adding another complex dimension to the problem. Continuing and large-scale loss of lives and damage to public and private property due to floods indicate that we are still to develop an effective response to floods. NDMAs Executive Summary Guidelines have been prepared to enable the various implementing and stakeholder agencies to effectively address the critical areas for minimising flood damage.\n\n"
+    </string>
+    <string name="FloodMap">
+
+    </string>
+    <string name="FloodDo">
+        "<b>What to do before a flood\n\n</b>"
+"To prepare for a flood, you should:\n\n"
+"Avoid building in flood prone areas unless you elevate and reinforce your home.Elevate the furnace, water heater, and electric panel if susceptible to flooding.Install "Check Valves" in sewer traps to prevent floodwater from backing up into the drains of your home.Contact community officials to find out if they are planning to construct barriers (levees, beams and floodwalls) to stop floodwater from entering the homes in your area.Seal the walls in your basement with waterproofing compounds to avoid seepage.\n\n"
+"If a flood is likely to hit your area, you should:\n\n"
+"Listen to the radio or television for information.Be aware that flash flooding can occur. If there is any possibility of a flash flood, move immediately to higher ground. Do not wait for instructions to move.Be aware of streams, drainage channels, canyons, and other areas known to flood suddenly. Flash floods can occur in these areas with or without such typical warnings as rain clouds or heavy rain.\n\n"
+"If you must prepare to evacuate, you should:\n\n"
+"Secure your home. If you have time, bring in outdoor furniture. Move essential items to an upper floor.Turn off utilities at the main switches or valves if instructed to do so. Disconnect electrical appliances. Do not touch electrical equipment if you are wet or standing in water.\n\n"
+"If you have to leave your home, remember these evacuation tips:\n\n"
+"Do not walk through moving water. Six inches of moving water can make you fall. If you have to walk in water, walk where the water is not moving. Use a stick to check the firmness of the ground in front of you.Do not drive into flooded areas. If floodwaters rise around your car, abandon the car and move to higher ground if you can do so safely. You and the vehicle can be quickly swept away.\n\n"
+    </string>
+
+    <string name="FloodGuideline">
+"Updated District Level Floods Hazard Atlese for the States of Assam and Bihar - B.Bhattacharjee, Member, NDMAFlood Hazard Atlas for Assam State - A Geospatial ApproachFlood Hazard Atlas for Bihar State - A Geospatial ApproachGuidelines on Flood\n\n"
+
+    </string>
+
+    <string name="LandslidesInfo">
+        "<b>Landslide\n\</b>"
+"India has the highest mountain chain on earth, the Himalayas, which are formed due to collision of Indian and Eurasian plate, the northward movement of the Indian plate towards China causes continuous stress on the rocks rendering them friable, weak and prone to landslides and earthquakes. The slow motion of the Indian crust, about 5 cm/year accumulates stress to which natural disasters are attributed. Some landslides make unique, and unparalleled catastrophes. Landslides and avalanches are among the major hydro-geological hazards that affect large parts of India besides the Himalayas, the Northeastern hill ranges, the Western Ghats, the Nilgiris, the Eastern Ghats and the Vindhyans, in that order, covering about 15 % of the landmass. The Himalayas alone count for landslides of every fame, name and description- big and small, quick and creeping, ancient and new. The Northeastern region is badly affected by landslide problems of a bewildering variety. Landslides in the Darjeeling district of West Bengal as also those in Sikkim, Mizoram, Tripura, Meghalaya, Assam, Nagaland and Arunachal Pradesh pose chronic problems, causing recurring economic losses worth billions of rupees. A different variety of landslides, characterized by a lateritic cap, pose constant threat to the Western Ghats in the South, along the steep slopes overlooking the Konkan coast besides Nilgiris, which is highly landslide prone.\n\n"
+"Some spectacular events of tragedies are reported as Varnavat landslide, Uttarkashi District, Malpha landslide Pithoragarh district, Okhimath landslide in Chamoli district, UK and Paglajhora in Darjeeling district as well as Sikkim, Aizawl sports complex, Mizoram.These are some of the more recent examples of landslides. The problem therefore needs to be tackled for mitigation and management for which hazard zones have to be identified and specific slides to be stabilized and managed in addition to monitoring and early warning systems to be placed at selected sites. The Photograph of Okhimath landslide which formed a lake in Madhyamaheshwerganga, Rudraprayag district\n\n"
+    </string>
+    <string name="LandslidesMap">
+
+    </string>
+    <string name="LandslidesDo">
+        "We cannot stop disaster but minimize its impact by preparing ourselves better for landslides. The Government of India has made plans to identify the areas where landslides occur repeatedly. This is achieved through Landslide Hazard Zonation (LHZ) maps which shows or demarcates areas by different colors. NDMA has published a guideline on Landslides and Snow Avalanches as given on its website. Following are the precautionary measures for landslides in the form of do's and dont's as given below:\n\n"
+"Do's\n\n"
+"Prepare tour to hilly region according to information given by weather department or news channel.Move away from landslide path or downstream valleys quickly without wasting time.Keep drains clean,Inspect drains for - litter, leaves, plastic bags, rubble etc.Keep the weep holes open.Grow more trees that can hold the soil through roots,Identify areas of rock fall and subsidence of buildings, cracks that indicate landslides and move to safer areas. Even muddy river waters indicate landslides upstream.Notice such signals and contact the nearest Tehsil or District Head Quarters.Ensure that toe of slope is not cut, remains protected, don't uproot trees unless re-vegetation is planned.Listen for unusual sounds such as trees cracking or boulders knocking together.Stay alert, awake and active (3A's) during the impact or probability of impact.Locate and go to shelters,Try to stay with your family and companions.Check for injured and trapped persons.Mark path of tracking so that you can't be lost in middle of the forest.Know how to give signs or how to communicate during emergency time to flying helicopters and rescue team.\n\n"
+"Donts\n\n"
+"Try to avoid construction and staying in vulnerable areas.Do not panic and loose energy by crying.Do not touch or walk over loose material and electrical wiring or pole.Do not built houses near steep slopes and near drainage path.Do not drink contaminated water directly from rivers, springs, wells but rain water if collected directly without is fine.Do not move an injured person without rendering first aid unless the casualty is in immediate danger.\n\n"
+    </string>
+    <string name="LandslidesRecover">
+        "Remain calm and be alert and awake, listen to warnings of heavy and prolonged period of rainfall from weather station, if your home is located below a debris covered area move away to safer place, listen to sounds of rock fall, moving debris and cracking of trees, or cracks in ground or any movement. Keep a battery operated ready for the night.\n\n"
+"Call and help rescue teams, keep drinking water containers, first aid kit and essential medicines and avoid entering damaged houses.\n\n"
+"Watch for flooding if close to river, help others who need help especially elderly people, children and women, seek advice from local authorities for rebuilding damaged houses, roads etc.\n\n"
+"Report any damage of roads, power and telephone lines to concerned authorities.\n\n"
+
+    </string>
+
+    <string name="LandslidesGuideline">
+        "Click on the links below for guidlines\n\n"
+"Guidelines on Landslide"
+    </string>
+
+    <string name="CyclonsInfo">
+        "Cyclones\n\n"
+"Cyclones are caused by atmospheric disturbances around a low-pressure area distinguished by swift and often destructive air circulation. Cyclones are usually accompanied by violent storms and bad weather. The air circulates inward in an anticlockwise direction in the Northern hemisphere and clockwise in the Southern hemisphere. Cyclones are classified as: (i) extra tropical cyclones (also called temperate cyclones); and (ii) tropical cyclones. The word Cyclone is derived from the Greek word Cyclos meaning the coils of a snake. It was coined by Henry Peddington because the tropical storms in the Bay of Bengal and the Arabian Sea appear like coiled serpents of the sea."
+    </string>
+    <string name="CyclonsMap">
+
+    </string>
+    <string name="CyclonsDo">
+        "Before the Cyclone season:\n\n"
+"Check the house; secure loose tiles and carry out repairs of doors and windowsRemove dead branches or dying trees close to the house; anchor removable objects such as lumber piles, loose tin sheets, loose bricks, garbage cans, sign-boards etc. which can fly in strong windsKeep some wooden boards ready so that glass windows can be boarded if neededKeep a hurricane lantern filled with kerosene, battery operated torches and enough dry cellsDemolish condemned buildingsKeep some extra batteries for transistorsKeep some dry non-perishable food always ready for use in emergency\n\n"
+"Necessary actions\n\n"
+"The actions that need to be taken in the event of a cyclone threat can broadly be divided into :\n\n"
+"Immediately before the cyclone seasonWhen cyclone alerts and warnings are communicatedWhen evacuations are advisedWhen the cyclone has crossed the coast\n\n"
+"When the Cyclone starts\n\n"
+"Listen to the radio (All India Radio stations give weather warnings).Keep monitoring the warnings. This will help you prepare for a cyclone emergency.Pass the information to others.Ignore rumours and do not spread them; this will help to avoid panic situations.Believe in the official informationWhen a cyclone alert is on for your area continue normal working but stay alert to the radio warnings.Stay alert for the next 24 hours as a cyclone alert means that the danger is within 24 hours.\n\n"
+"When your area is under cyclone warning get away from low-lying beaches or other low-lying areas close to the coast\n\n"
+"Leave early before your way to high ground or shelter gets floodedDo not delay and run the risk of being maroonedIf your house is securely built on high ground take shelter in the safe part of the house. However, if asked to evacuate do not hesitate to leave the place.Board up glass windows or put storm shutters in place.Provide strong suitable support for outside doors.If you do not have wooden boards handy, paste paper strips on glasses to prevent splinters. However, this may not avoid breaking windows.Get extra food, which can be eaten without cooking. Store extra drinking water in suitably covered vessels.If you have to evacuate the house move your valuable articles to upper floors to minimize flood damage.Ensure that your hurricane lantern, torches or other emergency lights are in working condition and keep them handy.Small and loose things, which can fly in strong winds, should be stored safely in a room.Be sure that a window and door can be opened only on the side opposite to the one facing the wind.Make provision for children and adults requiring special diet.If the centre of the cyclone is passing directly over your house there will be a lull in the wind and rain lasting for half an hour or so. During this time do not go out; because immediately after that, very strong winds will blow from the opposite direction.Switch off the electrical mains in your house.Remain calm\n\n"
+"When Evacuation is instructed\n\n"
+"Pack essentials for yourself and your family to last a few days. These should include medicines, special food for babies and children or elders.Head for the proper shelter or evacuation points indicated for your area.Do not worry about your propertyAt the shelter follow instructions of the person in charge.Remain in the shelter until you are informed to leave\n\n"
+"Post-cyclone measures\n\n"
+"You should remain in the shelter until informed that you can return to your home.You must get inoculated against diseases immediately.Strictly avoid any loose and dangling wires from lamp posts.If you have to drive, do drive carefully.Clear debris from your premises immediately.Report the correct losses to appropriate authorities.\n\n"
+
+    </string>
+    <string name="CyclonsRecover">
+        "After All Clear is issued for back movement by State give attention to the following:\n\n"
+"Whether roads for reaching home is recommended by authorities;Whether power lines are safe;Whether transport arrangement is approved by authoritiesPure drinking water is available;Sewage lines are working;Any epidemic spread in the area;Safety of neighbor(s) assured;
+\n"
+    </string>
+
+
+    <string name="CyclonsGuideline">
+        "National Disaster Management Authority (NDMA) adopted a 9 step process, while preparing the National Guidelines on Management of Cyclones. This include a national workshop and several meetings of the core group and sub groups, including representatives from concerned ministries of the Government of India, senior government officials from 13 coastal states and Union Territories (UTs), senior members from science and technology institutions and social workers from prominent Non-Governmental Organizations (NGOs). This is 4-tier feedback and interaction from:\n\n"
+"Sub-district levelDistrict levelState/UT LevelNational level - Ministries of the Government of India\n\n"
+"Finally, a series of meetings deliberated on various aspects of the subject and released its conclusions on 24 April 2008.\n\n"
+"Guidelines for Cyclone\n\n"
+"Projects and Schemes\n\n"
+"National Cyclone Risk Mitigation Project\n\n"
+"Indian coasts are highly vulnerable to tropical cyclones and consequent recurrent loss of life and property. Recognizing this, the Government of India has considered the hazard risk mitigation approach through short term and long term measures, which lay greater emphasis on prevention, preparedness and mitigation. With this in view, the Ministry of Home Affairs (MHA), Government of India conceptualized a comprehensive National Cyclone Risk Mitigation Strategy through several consultations, ending with a National Workshop, in 2003, "Developing Strategy for Cyclone Mitigation in the Coastal and Island Regions of India" . To give effect to the strategic interventions, the Ministry of Home Affairs decided to put in place the "National Cyclone Risk Mitigation Project". After the formation of National Disaster Management Authority (NDMA), the management of the Project was transferred to NDMA in September, 2006. This is the first such effort at the national level with World Bank assistance to cover 13 coastal states and UTs.\n\n"
+"Access further details on this at http://ncrmp.gov.in/.\n\n"
+    </string>
+
+    <string name="TsunamisInfo">
+        "<b>Tsunami\n\n</b>"
+"The Earths lithosphere is broken up into a bunch of discrete pieces, called plates that move around the surface of the planet. There are seven or eight major plates (depending on how they are defined) and many minor plates. This motion is driven by the flow of the mantle rock beneath the plates and by the forces plates exert at their boundaries where they touch each other. Earthquakes happen when plates move with respect to each other because of the friction and stress at the edges of plates prevents them from slipping smoothly at their boundaries. When one plate is forced to dive beneath another plate, there is no way to do it except with some component of vertical motion creating tsunami (please see figure) .\n\n"
+"The tsunami that occurred during 2004 Sumatra-Andaman earthquake of Mw 9.3 was primarily caused by vertical displacement of the seafloor, in response to slip on the inter-plate thrust fault. The earthquake and resulting tsunami in the Indian Ocean affected many countries in Southeast Asia and beyond, including Indonesia, Sri Lanka, India, Thailand, the Maldives, Somalia, Myanmar, Malaysia, Seychelles and others. Many other countries, especially Australia and those in Europe incurred casualties due to the tsunami, because they had large numbers of citizens traveling in the region on holiday. This tsunami-genic earthquake was one of the ten worst earthquakes in recorded history, as well as the single worst tsunami in history. Indonesia was the worst affected country. Beyond the heavy toll on human lives, the Indian Ocean earthquake has caused an enormous environmental impact that will affect the region for many years to come. The disaster also caused a substantial geo-physical impact in Indian Ocean. The disaster invited attention of affected countries for setting up effective tsunami early warning system and institutional mechanism for handling disasters.\n\n"
+"The Government of India has put in place an Early Warning System for mitigation of such oceanogenic disasters under the control of Indian National Center for Ocean Information Services (INCOIS), Hyderabad. A state-of-the-art early warning centre was established with the necessary computational and communication infrastructure that enables reception of real-time data from sensors, analysis of the data, generation and dissemination of tsunami advisories following a standard operating procedure. Seismic and sea-level data are continuously monitored in the Early Warning Centre using custom-built software application that generates alarms/alerts in the warning centre whenever a pre-set threshold is crossed. Tsunami warnings/watches are then generated based on pre-set decision support rules and disseminated to the concerned authorities for action, as per pre-decided standard operating procedure. The efficiency of this end-to-end system was proved during the large under-sea earthquake of 8.4 M that occurred on September 12, 2007 in the Indian Ocean.\n\n"
+"The 2004 tsunami also prompted NDMA to formulate Tsunami Risk Management Guidelines to outline inter-agency roles and responsibilities, tsunami risk preparedness, mitigation and response.\n\n"
+"The Guidelines recommends practical and effective ways for awareness generation, capacity building, education, training and research  development for better tsunami risk management. The Guidelines explore options for effective dissemination of tsunami alert and warning messages generated by INCOIS to the concerned agencies and coastal vulnerable communities exposed to tsunamis in a coordinated manner.\n\n"
+"Structural Mitigation measures, as envisaged in the Guidelines, gives a brief guidance on design and construction of new structures as well as strategies for protecting lifeline and priority structures from Tsunamis along the seafront. The Guidelines urge BIS to roll out the pending construction standards entitled ‘Criteria for Tsunami-Resistant Design of Structures’. It further recommends a robust techno-legal regime through efficient land use practices, bioshields, shelter belt plantation and mangrove regeneration with community involvement. A strong mechanism has been recommended for effective emergency response by involving local police network, civil defence volunteers wherever available, home guards, State Disaster Response Forces and National Disaster Response Force. Further, the Guidelines explore the provisions of Disaster Management Act 2005 to mainstream concern of Tsunami risk management in disaster management plans of various levels.\n\n"
+
+    </string>
+    <string name="TsunamisMap">
+
+    </string>
+    <string name="TsunamisDo">
+        "You should find out if your home, school, workplace, or other frequently visited locations are in tsunami hazard areas along sea-shore.Know the height of your street above sea level and the distance of your street from the coast or other high-risk waters. (Local administration may put sign boards).Plan evacuation routes from your home, school, workplace, or any other place you could be where tsunamis present a risk.If your children's school is in an identified inundation zone, find out what the school evacuation plan is.Practice your evacuation routes.Use a Weather Radio or stay tuned to a local radio or television station to keep informed of local watches and warnings.Talk to your insurance agent.Homeowners' policies may not cover flooding from a tsunami. Ask the Insurance Agent about the benefits from Multi-Hazard Insurance Schemes.Discuss tsunamis with your family.Everyone should know what to do in a tsunami situation. Discussing tsunamis ahead of time will help reduce fear and save precious time in an emergency. Review flood safety and preparedness measures with your family.\n\n"
+"If you are in an area at risk from tsunamis\n\n"
+"You should find out if your home, school, workplace, or other frequently visited locations are in tsunami hazard areas.Know the height of your street above sea level and the distance of your street from the coast or other high-risk waters. (Local administration may put sign boards). Also find out the height above sea level and the distance from the coast of outbuildings that house animals, as well as pastures or corrals.Plan evacuation routes from your home, school, workplace, or any other place you could be where tsunamis present a risk. If possible, pick areas (30 meters) above sea level or go as far as 3 kilometres inland, away from the coastline. If you cannot get this high or far, go as high or far as you can. Every meter inland or upward may make a difference. You should be able to reach your safe location on foot within 15 minutes. After a disaster, roads may become blocked or unusable. Be prepared to evacuate by foot if necessary. Footpaths normally lead uphill and inland, while many roads parallel coastlines. Follow posted tsunami evacuation routes; these will lead to safety. Local emergency management officials can advise you on the best route to safety and likely shelter locations.If your children's school is in an identified inundation zone, find out what the school evacuation plan is. Find out if the plan requires you to pick your children up from school or from another location. Telephone lines during a tsunami watch or warning may be overloaded and routes to and from schools may be jammed.Practice your evacuation routes. Familiarity may save your life. Be able to follow your escape route at night and during inclement weather. Practicing your plan makes the appropriate response more of a reaction, requiring less thinking during an actual emergency situation.Use a Weather Radio or stay tuned to a local radio or television station to keep informed of local watches and warnings.Talk to your insurance agent.Homeowners' policies may not cover flooding from a tsunami. Ask the Insurance Agent about the benefits from Multi-Hazard Insurance Schemes.Discuss tsunamis with your family. Everyone should know what to do in a tsunami situation. Discussing tsunamis ahead of time will help reduce fear and save precious time in an emergency. Review flood safety and preparedness measures with your family.\n\n"
+"If you are visiting an area at risk from tsunamis\n\n"
+"Check with the hotel or campground operators for tsunami evacuation information and find out what the warning system is for tsunamis. It is important to know designated escape routes before a warning is issued.One of the early warning signals of a tsunami is that the sea water recedes several metres, exposing fish on shallow waters or on the beaches. If you see the sea water receding, you must immediately leave the beach and go to higher ground far away from the beach.Protect Your PropertyYou should avoid building or living in buildings within 200 meters of the high tide coastline.These areas are more likely to experience damage from tsunamis, strong winds, or coastal storms.Make a list of items to bring inside in the event of a tsunami.A list will help you remember anything that can be swept away by tsunami water.Elevate coastal homes.Most tsunami waves are less than 3 meters. Elevating your house will help reduce damage to your property from most tsunamis.Take precautions to prevent flooding.Have an engineer check your home and advise about ways to make it more resistant to tsunami water.There may be ways to divert waves away from your property. Improperly built walls could make your situation worse. Consult with a professional for advice.Ensure that any outbuildings, pastures, or corrals are protected in the same way as your home. When installing or changing fence lines, consider placing them in such a way that your animals are able to move to higher ground in the event of a tsunami.\n\n"
+    </string>
+    <string name="TsunamisRecover">"You should continue using a Weather Radio or staying tuned to a Coast Guard emergency frequency station or a local radio or television station for updated emergency information.Check yourself for injuries and get first aid if necessary before helping injured or trapped persons.If someone needs to be rescued, call professionals with the right equipment to help Many people have been killed or injured trying to rescue others in flooded areas.Help people who require special assistance—Infants, elderly people, those without transportation, large families who may need additional help in an emergency situation, people with disabilities, and the people who care for them.Avoid disaster areas. Your presence might hamper rescue and other emergency operations and put you at further risk from the residual effects of floods, such as contaminated water, crumbled roads, landslides, mudflows, and other hazards.Use the telephone only for emergency calls.Telephone lines are frequently overwhelmed in disaster situations. They need to be clear for emergency calls to get through.Stay out of a building if water remains around it. Tsunami water, like floodwater, can undermine foundations, causing buildings to sink, floors to crack, or walls to collapse.When re-entering buildings or homes, use extreme caution. Tsunami-driven floodwater may have damaged buildings where you least expect it. Carefully watch every step you take.Wear long pants, a long-sleeved shirt, and sturdy shoes. The most common injury following a disaster is cut feet.Use battery-powered lanterns or flashlights when examining buildings. Battery-powered lighting is the safest and easiest to use, and it does not present a fire hazard for the user, occupants, or building. DO NOT USE CANDLES.Examine walls, floors, doors, staircases, and windows to make sure that the building is not in danger of collapsing.Inspect foundations for cracks or other damage. Cracks and damage to a foundation can render a building uninhabitable.Look for fire hazards. Under the earthquake action there may be broken or leaking gas lines, and under the tsunami flooded electrical circuits, or submerged furnaces or electrical appliances. Flammable or explosive materials may have come from upstream. Fire is the most frequent hazard following floods.Check for gas leaks. If you smell gas or hear a blowing or hissing noise, open a window and get everyone outside quickly. Turn off the gas using the outside main valve if you can, and call the gas company from a neighbour’s home. If you turn off the gas for any reason, it must be turned back on by a professional.Look for electrical system damage. If you see sparks or broken or frayed wires, or if you smell burning insulation, turn off the electricity at the main fuse box or circuit breaker. If you have to step in water to get to the fuse box or circuit breaker, call an electrician first for advice. Electrical equipment should be checked and dried before being returned to serviceCheck for damage to sewage and water lines.If you suspect sewage lines are damaged under the quake, avoid using the toilets and call a plumber. If water pipes are damaged, contact the water company and avoid using water from the tap. You can obtain safe water from undamaged water heaters or by melting ice cubes that were made before the tsunami hit. Turn off the main water valve before draining water from these sources. Use tap water only if local health officials advise it is safe.Watch out for wild animals, especially poisonous snakes that may have come into buildings with the water. Use a stick to poke through debris. Tsunami floodwater flushes snakes and animals out of their homes.Watch for loose plaster, drywall, and ceilings that could fall.Take pictures of the damage, both of the building and its contents, for insurance claims. Open the windows and doors to help dry the building.Shovel mud before it solidifies.Check food supplies.Any food that has come in contact with floodwater may be contaminated and should be thrown out.Expect aftershocks. If the earthquake is of large magnitude (magnitude 8 to 9+ on the Richter scale) and located nearby, some aftershocks could be as large as magnitude 7+ and capable of generating another tsunami. The number of aftershocks will decrease over the course of several days, weeks, or months depending on how large the main shock was.Watch your animals closely.Keep all your animals under your direct control."</string>
+    <string name="TsunamisEmergency">
+
+"• Battery operated torch\n"
+"• Extra batteries\n"
+"• Fan the person\n"
+"• Battery operated radio\n"
+"• First aid kit and manual\n"
+"• Emergency food (dry items) and water (packed and sealed)\n"
+"• Candles and matches in a waterproof container\n"
+"•Knife\n"
+"•Chlorine tablets or powdered water purifiersCan opener\n"
+"•Essential medicinesCash, Aadhar Card and Ration CardThick ropes and cordsSturdy shoes\n"
+    </string>
+    <string name="TsunamisGuideline">
+        "NDMA has issued Tsunami Risk Management Guidelines to outline inter-agency roles and responsibilities, tsunami risk preparedness, mitigation and response\n\n"
+"The Guidelines recommends practical and effective ways for awareness generation, capacity building, education, training and research  development for better tsunami risk management. The Guidelines explore options for effective dissemination of tsunami alert and warning messages generated by INCOIS to the concerned agencies and coastal vulnerable communities exposed to tsunamis in a coordinated manner.\n\n"
+"Structural Mitigation measures, as envisaged in the Guidelines, gives a brief guidance on design and construction of new structures as well as strategies for protecting lifeline and priority structures from Tsunamis along the seafront. The Guidelines urge BIS to roll out the pending construction standards entitled ‘Criteria for Tsunami-Resistant Design of Structures’. It further recommends a robust techno-legal regime through efficient land use practices, bioshields, shelter belt plantation and mangrove regeneration with community involvement. A strong mechanism has been recommended for effective emergency response by involving local police network, civil defence volunteers wherever available, home guards, State Disaster Response Forces and National Disaster Response Force. Further, the Guidelines explore the provisions of Disaster Management Act 2005 to mainstream concern of Tsunami risk management in disaster management plans of various levels.For further details, please click below.\n\n"
+"Guidelines for Management of Tsunamis\n\n"
+    </string>
+
+    <string name="DroughtInfo">
+        "Drought is either absence or deficiency of rainfall from its normal pattern in a region for an extended period of time leading to general suffering in the society. It is interplay between demand that people place on natural supply of water and natural event that provides the water in a given geographical region.\n\n"
+"Drought is a normal, recurrent feature of climate and occurs in all climatic regimes and is usually characterized in terms of its spatial extension, intensity and duration.\n\n"
+"Read more:Guidelines on Drought Management\n\n"
+    </string>
+    <string name="DroughtMap">
+
+    </string>
+    <string name="DroughtDo">
+        "Implementation of water harvesting conservation, artificial recharge of ground water, traditional water harvesting and conservation, water saving technologies like drip and sprinkler irrigation systems, improved water saving farm practices, long term irrigation management etc
+Do water lawns in two short bursts (3-4 min.) rather than one long burst. This allows for the water to get into the soil and roots more efficiently and minimizes run-off
+Do use micro sprayers or other over-head watering system for drought tolerant plants rather than root based drip irrigation nozzles. This replicates their natural water regime
+Exploring practices such as harvesting cereal crops for fodder, supplemental irrigation if feasible, and ensuring availability of seeds when alternative crops are beneficial with logistic support from state and district machineries
+Dont settle for cheap irrigation components. You may end up paying more in water and replacement costs in the long run
+Do adjust irrigation system seasonally. Winter/spring rains = less sprinkler time\n\n"
+
+    </string>
+
+
+    <string name="UrbanInfo">
+        "Urban flooding is significantly different from rural flooding as urbanization leads to developed catchments, which increases the flood peaks from 1.8 to 8 times and flood volumes by up to 6 times. Consequently, flooding occurs very quickly due to faster flow times (in a matter of minutes). Urban areas are densely populated and people living in vulnerable areas suffer due to flooding, sometimes resulting in loss of life. It is not only the event of flooding but the secondary effect of exposure to infection also has its toll in terms of human suffering, loss of livelihood and, in extreme cases, loss of life.\n\n"
+"Urban areas are also centres of economic activities with vital infrastructure which needs to be protected 24x7. In most of the cities, damage to vital infrastructure has a bearing not only for the state and the country but it could even have global implications. Major cities in India have witnessed loss of life and property, disruption in transport and power and incidence of epidemics. Therefore, management of urban flooding has to be accorded top priority.\n\n"
+"Increasing trend of urban flooding is a universal phenomenon and poses a great challenge to urban planners the world over. Problems associated with urban floods range from relatively localized incidents to major incidents, resulting in cities being inundated from hours to several days. Therefore, the impact can also be widespread, including temporary relocation of people, damage to civic amenities, deterioration of water quality and risk of epidemics\n\n"
+    </string>
+    <string name="UrbanDo">
+        "DOs\n\n"
+"Switch off electrical and gas appliances, and turn off services off at the mains.Carry your emergency kit and let your friends and family know where you are going.Avoid contact with flood water it may be contaminated with sewage,oil,chemicals or other substances.If you have to walk in standing water, use a pole or stick to ensure that you do not step into deep water, open manholes or ditches.Stay away from power lines electrical current can travel through water, Report power lines that are down to the power company.Look before you step-after a flood, the ground and floors are covered with debris, which may include broken bottles, sharp objects, nails etc.Floors and stairs covered with mud and debris can be slippery.Listen to the radio or television for updates and information.If the ceiling is wet shut off electricity. Place a bucket underneath the spot and poke a small hole into the ceiling to relieve the pressure.Use buckets,clean towels and mops to remove as much of the water from the afflicted rooms as possible.Place sheets of aluminium foil between furniture wet carpet.\n\n"
+"Donts\n\n"
+"Dont walk through flowing water - currents can be deceptive, and shallow, fast moving water can knock you off your feet.Don't swim through fast flowing water - you may get swept away or stuck by an object in the water.Don't drive through a flooded area - You may not be able to see abrupt drop - offs and only half a meter of flood water can carry a car away. Driving through flood water can also cause additional damage to nearby property.Don't eat any food that has come into contact with flood water.Dont reconnect your power supply until a qualified engineer has checked it. Be alert for gas leaks - do not smoke or use candles, lanterns, or open flames.Don't scrub or brush mud and other deposits from materials, This may cause further damage.Never turn on ceiling fixtures if ceiling is wet. Stay away from ceilings those are sagging.Never use TVs, VCRS, CRT terminals or other electrical equipment while standing on wet floors, especially concrete.Dont attempt to remove standing water using your vacuum cleaner.Don't remove standing water in a basement too fast. If the pressure is relieved too quickly it may put undue stress on the walls.\n\n"
+
+    </string>
+    <string name="UrbanRecover">
+        "After Floods\n\n"
+"Drink chlorinated or boiled water.Take clean and safe foodSprinkle insecticides in the water ponds/ stagnant water.Please cooperate with disaster survey team by giving correct information.\n\n"
+\n\n"
+    </string>
+    <string name="UrbanEmergency">
+        "URBAN FLOOD RISK IN INDIA\n\n"
+"There has been an increasing trend of urban flood disasters in India over the past several years whereby major cities in India have been severely affected. The most notable amongst them are Hyderabad in 2000, Ahmedabad in 2001, Delhi in 2002 and 2003, Chennai in 2004, Mumbai in 2005, Surat in 2006, Kolkata in 2007, Jamshedpur in 2008, Delhi in 2009 and Guwahati and Delhi in 2010.\n\n"
+"A special feature in India is that we have heavy rainfall during monsoons. There are other weather systems also that bring in a lot of rain. Storm surges can also affect coastal cities/ towns. Sudden release or failure to release water from dams can also have severe impact. In addition, the urban heat island effect has resulted in an increase in rainfall over urban areas. Global climate change is resulting in changed weather patterns and increased episodes of high intensity rainfall events occurring in shorter periods of time. Then the threat of sea-level rise is also looming large, threatening all the coastal cities. Cities/towns located on the coast, on river banks, upstream/ downstream of dams, inland cities and in hilly areas can all be affected.\n\n"
+"ISSUES IN URBAN FLOODING\n\n"
+"Among the important cities of India, the average annual rainfall varies from 2932 mm in Goa and 2401 mm in Mumbai on the higher side, to 669 mm in Jaipur on the lower side. The rainfall pattern and temporal duration is almost similar in all these cities, which receive the maximum rainfall from the south-west monsoons. The average rainfall for the month of July in Mumbai is 868 mm and this far exceeds the annual average rainfall of 611 mm in London.\n\n"
+"Stormwater drainage systems in the past were designed for rainfall intensity of 12 – 20 mm. These capacities have been getting very easily overwhelmed whenever rainfall of higher intensity has been experienced. Further, the systems very often do not work to the designed capacities because of very poor maintenance. Encroachments are also a major problem in many cities and towns. Natural streams and watercourses have formed over thousands of years due to the forces of flowing water in the respective watersheds. Habitations started growing into towns and cities alongside rivers and watercourses. As a result of this, the flow of water has increased in proportion to the urbanization of the watersheds. Ideally, the natural drains should have been widened (similar to road widening for increased traffic) to accommodate the higher flows of stormwater. But on the contrary, there have been large scale encroachments on the natural drains and the river flood plains. Consequently the capacity of the natural drains has decreased, resulting in flooding. Improper disposal of solid waste, including domestic, commercial and industrial waste and dumping of construction debris into the drains also contributes significantly to reducing their capacities. It is imperative to take better operations and maintenance actions.\n\n"
+    </string>
+    <string name="UrbanGuideline">
+"NDMA took a path-breaking decision to deal with urban flooding as a separate disaster, delinking it from riverine floods. The first initiative was taken by organizing a Brainstorming Session in August 2007, followed by a National Workshop on October 11 and 12, 2007 at Pune. It was attended by representatives from Central, State Governments and Urban Local Bodies (ULBs) from different parts of the country, experts from academic and scientific communities. Different committees were constituted and, subsequently, Regional Workshops, State level Workshops, Core Group Meetings, Review Meetings and an Indo-US Workshop were held during 2007-2009.\n\n"
+" A nine step process has been followed that includes review of the present status and assessment of critical gaps. This has been done by taking on board the nodal agencies, ministries departments of GoI and State governments/UTs, academic, scientific and technical institutions and NGOs, and obtaining exhaustive feedback from city/town level through interaction with Members of Parliament (MPs), Members of Legislative Assemblies (MLAs) and elected representatives from ULBs."
+    </string>
+
+    <string name="HeatInfo">
+        "<b>Heat Wave\n\n</b>"
+"A Heat Wave is a period of abnormally high temperatures, more than the normal maximum temperature that occurs during the summer season in the North-Western parts of India. Heat Waves typically occur between March and June, and in some rare cases even extend till July. The extreme temperatures and resultant atmospheric conditions adversely affect people living in these regions as they cause physiological stress, sometimes resulting in death.\n\n"
+"The Indian Meteorological Department (IMD) has given the following criteria for Heat Waves :\n\n"
+"Heat Wave need not be considered till maximum temperature of a station reaches atleast 40*C for Plains and atleast 30*C for Hilly regionsWhen normal maximum temperature of a station is less than or equal to 40*C Heat Wave Departure from normal is 5*C to 6*C Severe Heat Wave Departure from normal is 7*C or moreWhen normal maximum temperature of a station is more than 40*C Heat Wave Departure from normal is 4*C to 5*C Severe Heat Wave Departure from normal is 6*C or moreWhen actual maximum temperature remains 45*C or more irrespective of normal maximum temperature, heat waves should be declared. Higher daily peak temperatures and longer, more intense heat waves are becomingly increasingly frequent globally due to climate change. India too is feeling the impact of climate change in terms of increased instances of heat waves which are more intense in nature with each passing year, and have a devastating impact on human health thereby increasing the number of heat wave casualties.\n\n"
+"Higher daily peak temperatures and longer, more intense heat waves are becomingly increasingly frequent globally due to climate change. India too is feeling the impact of climate change in terms of increased instances of heat waves which are more intense in nature with each passing year, and have a devastating impact on human health thereby increasing the number of heat wave casualties.\n\n"
+    </string>
+    <string name="HeatDo">
+        "<b>What to do during a Heat Wave\n\n</b>"
+"Recognise the signs of heat stroke, heat rash or heat cramps such as weakness, dizziness, headache, nausea, sweating and seizures.Drink water and oral hydration drinksRest in shade, take breaks if you must work in the sunPlace a cool, wet cloth on your head to cool offCheck on neighbours and elderly family to ensure they are keeping coolWear light and loose clothesUse an umbrella or hat or cover head with a cloth\n\n"
+"<b>What not to do during a Heat Wave\n\n</b>"
+"Do not go out in the direct sunAvoid extensive physical activityDo not send children or pets out in the sun or leave them in closed vehicles.Do not consume caffeinated drinks (like aerated drinks) and alcohol during extreme heatAvoid wearing dark, heavy or tight clothingAvoid cooking during peak heat hours. If you must cook, open doors and windows to ventilate the cooking area adequately.\n\n"
+    </string>
+    <string name="HeatRecover">
+        "<b>Recover and Build\n\n</b>"
+"If you think someone is suffering from the heat:\n\n"
+"• Move the person to a cool place under the shade\n"
+"• Give water or a rehydrating drink (if the person is still conscious)\n"
+"• Fan the person\n"
+"• Consult a doctor if symptoms get worse or are long lasting or the person is unconscious\n"
+"• Do not give alcohol, caffeine or aerated drink\n"
+"• Cool the person by putting a cool wet cloth on his/her face/body\n"
+"• Loosen clothes for better ventilation\n"
+    </string>
+    <string name="HeatEmergency">
+        "Emergency Kit\n"
+"Water bottleUmbrella/ Hat or Cap / Head CoverHand TowelHand FanElectrolyte / Glucose / Oral Rehydration\n"
+    </string>
+    <string name="gamebase">
+        "<h2>Play and Learn to stop Disasters</h2>\n\n"
+
+"<a>Escape Plan Fire:</a>This tool is designed to help you work out and highlight the escape routes in your home in the event of a fire.\n\n"
+"<a>Stop Disasters Game:</a>Play stop disasters game and learn how you can prevent disasters.\n\n"
+"<a>School Safety:</a>Building safe schools will not only ensure safety of children in disasters, but will also promote faster rehabilitation post disaster."
+
+
+    </string>
+    <string name="earthquake_map">EarthQuake Zone Map</string>
+    <string name="floods_map">Floods Zone Map</string>
+    <string name="landslides_zone_map">Landslides Zone Map</string>
+    <string name="cyclone_zone_map">Cyclone Zone Map</string>
+    <string name="tsunamis_zone_map">Tsunamis Zone Map</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="forword"><![CDATA[>]]></string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="title_activity_ngos">NGOs</string>
+    <string name="ngo_logo">MCC</string>
+    <string name="img1">img2</string>
+    <string name="img2">img2</string>
+    <string name="img3">img3</string>
+    <string name="img4">img4</string>
+    <string name="img5">img5</string>
+    <string name="img6">img6</string>
+    <string name="img7">img7</string>
+    <string name="img8">img8</string>
+
+    <string name="img9">img9</string>
+    <string name="title_activity_all_hand">AllHand</string>
+    <string name="title_activity_amurt">AMURT</string>
+    <string name="title_activity_cob">COB</string>
+    <string name="title_activity_mcc">MCC</string>
+    <string name="title_activity_direct_relief">DirectRelief</string>
+    <string name="title_activity_cn">CN</string>
+    <string name="title_activity_city_team">CityTeam</string>
+    <string name="title_activity_react">React</string>
+    <string name="title_activity_msf">MSF</string>
+    <string name="title_activity_oxfem">Oxfem</string>
+    <string name="title_activity_guideline">Guideline</string>
+    <string name="click_for_more_details">Click for more details</string>
+    <string name="guidelines">Guidelines</string>
+    <string name="title_activity_who">WHO</string>
+    <string name="title_activity_kids_game">Play And Learn</string>
+    <string name="title_activity_nuclear_disaster_info1">NuclearDisasterInfo</string>
+    <string name="click_on_image_for_more_details">Click on image for more details:</string>
+
+
+</resources>

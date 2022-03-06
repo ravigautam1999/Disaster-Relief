@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EarthQuakes"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_earth_quakes"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnEarthquakesInfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Information"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnEarthquakesMap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Zone Map"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    />
+    <Button
+        android:id="@+id/btnEarthquakesDo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Do's and Dont's"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnEarthquakesRecover"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Recover and Build"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnEarthquakesEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Emergency Kit"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnEarthquakesGuideline"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Guidlines"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+</LinearLayout>

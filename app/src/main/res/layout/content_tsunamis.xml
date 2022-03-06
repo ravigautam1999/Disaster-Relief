@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Tsunamis"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_tsunamis"
+    android:padding="20dp">
+
+
+    <Button
+        android:id="@+id/btnTsunamisInfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/information"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnTsunamisMap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/zone_and_map"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnTsunamisDo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/do_s_and_dont_s"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnTsunamisRecovery"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/recovery_and_build"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white" />
+    <Button
+        android:id="@+id/btnTsunamisEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/emergency"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnTsunamisGuideline"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Guideline"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+</LinearLayout>

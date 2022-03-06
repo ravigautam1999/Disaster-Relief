@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:checkable="true"
+            android:id="@+id/nav_about"
+            android:title="@string/menu_about" />
+
+
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_intro"
+            android:title="@string/menu_intro" />
+        <item android:checkable="true"
+            android:id="@+id/nav_nature"
+            android:title="@string/menu_nature" />
+        <item android:checkable="true"
+            android:id="@+id/nav_man"
+            android:title="@string/menu_man" />
+        <item android:checkable="true"
+            android:id="@+id/nav_cycle"
+            android:title="@string/menu_cycle" />
+        <item android:checkable="true"
+            android:id="@+id/nav_kit"
+            android:title="@string/menu_kit" />
+        <item android:checkable="true"
+            android:id="@+id/nav_game"
+            android:title="@string/menu_game" />
+        <item android:checkable="true"
+            android:id="@+id/nav_ref"
+            android:title="@string/menu_ref" />
+
+
+    </group>
+    <group>
+        <item android:checkable="true"
+            android:id="@+id/nav_ngos"
+            android:title="@string/menu_ngos"
+           />
+    </group>
+
+
+
+</menu>

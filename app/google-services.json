@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727585566153",
+    "firebase_url": "https://disaster-relief-4e3ca.firebaseio.com",
+    "project_id": "disaster-relief-4e3ca",
+    "storage_bucket": "disaster-relief-4e3ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727585566153:android:444e0c026019a9a92dcc18",
+        "android_client_info": {
+          "package_name": "com.disaster.myapplication0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727585566153-je24pbffmd3ae1q5flc7q3jdh7ppaaof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFhneOQMmbP0t60lEbvPqKKYwZQmu5uYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727585566153-je24pbffmd3ae1q5flc7q3jdh7ppaaof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

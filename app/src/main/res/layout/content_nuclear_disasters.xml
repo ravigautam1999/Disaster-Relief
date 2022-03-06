@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NuclearDisasters"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_nuclear_disasters"
+    android:padding="20dp"
+    android:background="@drawable/ip27">
+
+    <Button
+        android:id="@+id/btnManMadeDisasterNuclearInfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/information"
+        android:textAllCaps="false"
+        android:background="#00141642"
+        android:textColor="#FFFCFC"/>
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnManMadeDisasterNuclearDo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/do_s_and_dont_s"
+        android:textAllCaps="false"
+        android:background="#00141642"
+        android:textColor="#FFFCFC"/>
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/btnManMadeDisasterNuclearGuideline"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="@string/guidelines"
+        android:textAllCaps="false"
+        android:background="#00141642"
+        android:textColor="#FFFCFC"/>
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>

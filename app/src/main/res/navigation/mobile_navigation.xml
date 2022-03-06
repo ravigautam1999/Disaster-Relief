@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about">
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_intro"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_intro"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_nature"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_nature"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_man"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_man"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_cycle"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_cycle"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_kit"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_kit"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_game"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_game"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_ref"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_ref"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_ngos"
+        android:name="com.disaster.myapplication0.ui.home.HomeFragment"
+        android:label="@string/menu_ngos"
+        tools:layout="@layout/fragment_home" />
+
+
+</navigation>

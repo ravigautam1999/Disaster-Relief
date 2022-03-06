@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.disaster.myapplication0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.disaster.myapplication0.NuclearDisasterInfo1"
+            android:label="@string/title_activity_nuclear_disaster_info1"
+            android:parentActivityName="com.disaster.myapplication0.NuclearDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NuclearDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.KidsGame"
+            android:label="@string/title_activity_kids_game"
+            android:parentActivityName="com.disaster.myapplication0.GameBasedLearnig"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.GameBasedLearnig" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.WHO"
+            android:label="@string/title_activity_who"
+            android:parentActivityName="com.disaster.myapplication0.References"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.References" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Guideline"
+            android:label="@string/title_activity_guideline"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Oxfem"
+            android:label="@string/title_activity_oxfem"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.disaster.myapplication0.MSF"
+            android:label="@string/title_activity_msf"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.React"
+            android:label="@string/title_activity_react"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CityTeam"
+            android:label="@string/title_activity_city_team"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CN"
+            android:label="@string/title_activity_cn"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.DirectRelief"
+            android:label="@string/title_activity_direct_relief"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.MCC"
+            android:label="@string/title_activity_mcc"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.COB"
+            android:label="@string/title_activity_cob"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.AMURT"
+            android:label="@string/title_activity_amurt"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.disaster.myapplication0.AllHand"
+            android:label="@string/title_activity_all_hand"
+            android:parentActivityName="com.disaster.myapplication0.NGOs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NGOs" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.NGOs"
+            android:label="@string/title_activity_ngos"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.disaster.myapplication0.WebView"
+            android:label="@string/title_activity_web_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.disaster.myapplication0.BiologicalDisastersGuideline"
+            android:label="@string/title_activity_biological_disasters_guideline"
+            android:parentActivityName="com.disaster.myapplication0.BiologicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.BiologicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.BiologicalDisastersEmergency"
+            android:label="@string/title_activity_biological_disasters_emergency"
+            android:parentActivityName="com.disaster.myapplication0.BiologicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.BiologicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.BiologicalDisastersDo"
+            android:label="@string/title_activity_biological_disasters_do"
+            android:parentActivityName="com.disaster.myapplication0.BiologicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.BiologicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.BiologicalDisastersInfo"
+            android:label="@string/title_activity_biological_disasters_info"
+            android:parentActivityName="com.disaster.myapplication0.BiologicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.BiologicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.IndustrialDisasterGuidleline"
+            android:label="@string/title_activity_industrial_disaster_guidleline"
+            android:parentActivityName="com.disaster.myapplication0.IndustrialandChemicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.IndustrialandChemicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.IndustriaDisasterDo"
+            android:label="@string/title_activity_industria_disaster_do"
+            android:parentActivityName="com.disaster.myapplication0.IndustrialandChemicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.IndustrialandChemicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.IndustrialDisasterCommon"
+            android:label="@string/title_activity_industrial_disaster_common"
+            android:parentActivityName="com.disaster.myapplication0.IndustrialandChemicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.IndustrialandChemicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.IndustrialDisasterInfo"
+            android:label="@string/title_activity_industrial_disaster_info"
+            android:parentActivityName="com.disaster.myapplication0.IndustrialandChemicalDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.IndustrialandChemicalDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.NuclearDisastersGuideline"
+            android:label="@string/title_activity_nuclear_disasters_guideline"
+            android:parentActivityName="com.disaster.myapplication0.NuclearDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NuclearDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.NuclearDisastersDo"
+            android:label="@string/title_activity_nuclear_disasters_do"
+            android:parentActivityName="com.disaster.myapplication0.NuclearDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NuclearDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.NuclearDisastersInfo"
+            android:label="@string/title_activity_nuclear_disasters_info"
+            android:parentActivityName="com.disaster.myapplication0.NuclearDisasters"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NuclearDisasters" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.BiologicalDisasters"
+            android:label="@string/title_activity_biological_disasters"
+            android:parentActivityName="com.disaster.myapplication0.ManMadeDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.ManMadeDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.IndustrialandChemicalDisasters"
+            android:label="@string/title_activity_industrialand_chemical_disasters"
+            android:parentActivityName="com.disaster.myapplication0.ManMadeDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.ManMadeDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.NuclearDisasters"
+            android:label="@string/title_activity_nuclear_disasters"
+            android:parentActivityName="com.disaster.myapplication0.ManMadeDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.ManMadeDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.HeatWavEmergency"
+            android:label="@string/title_activity_heat_wav_emergency"
+            android:parentActivityName="com.disaster.myapplication0.HeatWave"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.HeatWave" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.HeatWaveRecovery"
+            android:label="@string/title_activity_heat_wave_recovery"
+            android:parentActivityName="com.disaster.myapplication0.HeatWave"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.HeatWave" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.HeatWaveDo"
+            android:label="@string/title_activity_heat_wave_do"
+            android:parentActivityName="com.disaster.myapplication0.HeatWave"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.HeatWave" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.HeatWaveInfo"
+            android:label="@string/title_activity_heat_wave_info"
+            android:parentActivityName="com.disaster.myapplication0.HeatWave"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.HeatWave" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.UrbanFloodGuideline"
+            android:label="@string/title_activity_urban_flood_guideline"
+            android:parentActivityName="com.disaster.myapplication0.UrbanFlood"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.UrbanFlood" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.UrbanFloodEmergency"
+            android:label="@string/title_activity_urban_flood_emergency"
+            android:parentActivityName="com.disaster.myapplication0.UrbanFlood"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.UrbanFlood" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.UrbanFloodRecovery"
+            android:label="@string/title_activity_urban_flood_recovery"
+            android:parentActivityName="com.disaster.myapplication0.UrbanFlood"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.UrbanFlood" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.UrbanFloodDo"
+            android:label="@string/title_activity_urban_flood_do"
+            android:parentActivityName="com.disaster.myapplication0.UrbanFlood"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.UrbanFlood" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.UrbanFloodInfo"
+            android:label="@string/title_activity_urban_flood_info"
+            android:parentActivityName="com.disaster.myapplication0.UrbanFlood"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.UrbanFlood" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.DroughtDo"
+            android:label="@string/title_activity_drought_do"
+            android:parentActivityName="com.disaster.myapplication0.Drought"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Drought" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.DroughtInfo"
+            android:label="@string/title_activity_drought_info"
+            android:parentActivityName="com.disaster.myapplication0.Drought"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Drought" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.TsunamisGuideline"
+            android:label="@string/title_activity_tsunamis_guideline"
+            android:parentActivityName="com.disaster.myapplication0.Tsunamis"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Tsunamis" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.TsunamisEmergency"
+            android:label="@string/title_activity_tsunamis_emergency"
+            android:parentActivityName="com.disaster.myapplication0.Tsunamis"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Tsunamis" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.TsunamisRecovery"
+            android:label="@string/title_activity_tsunamis_recovery"
+            android:parentActivityName="com.disaster.myapplication0.Tsunamis"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Tsunamis" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.TsunamisDo"
+            android:label="@string/title_activity_tsunamis_do"
+            android:parentActivityName="com.disaster.myapplication0.Tsunamis"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Tsunamis" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.TsunamisMap"
+            android:label="@string/title_activity_tsunamis_map"
+            android:parentActivityName="com.disaster.myapplication0.Tsunamis"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Tsunamis" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.TsunamisInfo"
+            android:label="@string/title_activity_tsunamis_info"
+            android:parentActivityName="com.disaster.myapplication0.Tsunamis"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Tsunamis" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CyclonesGuideline"
+            android:label="@string/title_activity_cyclones_guideline"
+            android:parentActivityName="com.disaster.myapplication0.Cyclones"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Cyclones" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CyclonesEmergency"
+            android:label="@string/title_activity_cyclones_emergency"
+            android:parentActivityName="com.disaster.myapplication0.Cyclones"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Cyclones" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CyclonesRecovery"
+            android:label="@string/title_activity_cyclones_recovery"
+            android:parentActivityName="com.disaster.myapplication0.Cyclones"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Cyclones" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CyclonesDo"
+            android:label="@string/title_activity_cyclones_do"
+            android:parentActivityName="com.disaster.myapplication0.Cyclones"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Cyclones" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CyclonesMap"
+            android:label="@string/title_activity_cyclones_map"
+            android:parentActivityName="com.disaster.myapplication0.Cyclones"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Cyclones" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.CyclonesInfo"
+            android:label="@string/title_activity_cyclones_info"
+            android:parentActivityName="com.disaster.myapplication0.Cyclones"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Cyclones" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.LandslidesGuideline"
+            android:label="@string/title_activity_landslides_guideline"
+            android:parentActivityName="com.disaster.myapplication0.Landslides"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Landslides" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.LandslidesEmergency"
+            android:label="@string/title_activity_landslides_emergency"
+            android:parentActivityName="com.disaster.myapplication0.Landslides"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Landslides" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.LandslidesRecover"
+            android:label="@string/title_activity_landslides_recover"
+            android:parentActivityName="com.disaster.myapplication0.Landslides"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Landslides" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.LandslideDo"
+            android:label="@string/title_activity_landslide_do"
+            android:parentActivityName="com.disaster.myapplication0.Landslides"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Landslides" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.LandslideMap"
+            android:label="@string/title_activity_landslide_map"
+            android:parentActivityName="com.disaster.myapplication0.Landslides"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Landslides" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.LandslidesInfo"
+            android:label="@string/title_activity_landslides_info"
+            android:parentActivityName="com.disaster.myapplication0.Landslides"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Landslides" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.FloodsGuidelines"
+            android:label="@string/title_activity_floods_guidelines"
+            android:parentActivityName="com.disaster.myapplication0.Floods"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Floods" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.FloodsEmergency"
+            android:label="@string/title_activity_floods_emergency"
+            android:parentActivityName="com.disaster.myapplication0.Floods"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Floods" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.FloodsDo"
+            android:label="@string/title_activity_floods_do"
+            android:parentActivityName="com.disaster.myapplication0.Floods"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Floods" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.FloodsMap"
+            android:label="@string/title_activity_floods_map"
+            android:parentActivityName="com.disaster.myapplication0.Floods"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Floods" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.FloodsInfo"
+            android:label="@string/title_activity_floods_info"
+            android:parentActivityName="com.disaster.myapplication0.Floods"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.Floods" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakeGuideline"
+            android:label="@string/title_activity_earth_quake_guideline"
+            android:parentActivityName="com.disaster.myapplication0.EarthQuakes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.EarthQuakes" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakeEmergency"
+            android:label="@string/title_activity_earth_quake_emergency"
+            android:parentActivityName="com.disaster.myapplication0.EarthQuakes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.EarthQuakes" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakeRecover"
+            android:label="@string/title_activity_earth_quake_recover"
+            android:parentActivityName="com.disaster.myapplication0.EarthQuakes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.EarthQuakes" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakeDo"
+            android:label="@string/title_activity_earth_quake_do"
+            android:parentActivityName="com.disaster.myapplication0.EarthQuakes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.EarthQuakes" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakeMap"
+            android:label="@string/title_activity_earth_quake_map"
+            android:parentActivityName="com.disaster.myapplication0.EarthQuakes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.EarthQuakes" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakeInfo"
+            android:label="@string/title_activity_earth_quake_info"
+            android:parentActivityName="com.disaster.myapplication0.EarthQuakes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.EarthQuakes" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.HeatWave"
+            android:label="@string/title_activity_heat_wave"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.UrbanFlood"
+            android:label="@string/title_activity_urban_flood"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Drought"
+            android:label="@string/title_activity_drought"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Tsunamis"
+            android:label="@string/title_activity_tsunamis"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.disaster.myapplication0.Cyclones"
+            android:label="@string/title_activity_cyclones"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Landslides"
+            android:label="@string/title_activity_landslides"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Floods"
+            android:label="@string/title_activity_floods"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.EarthQuakes"
+            android:label="@string/title_activity_earth_quakes"
+            android:parentActivityName="com.disaster.myapplication0.NatuteDisaster"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.NatuteDisaster" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.HelpLine"
+            android:label="@string/title_activity_help_line"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.disaster.myapplication0.References"
+            android:label="@string/title_activity_references"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.GameBasedLearnig"
+            android:label="@string/title_activity_game_based_learnig"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.DisaterEmergencyKit"
+            android:label="@string/title_activity_disater_emergency_kit"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.DisasterManagementCycle"
+            android:label="@string/title_activity_disaster_management_cycle"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.ManMadeDisaster"
+            android:label="@string/title_activity_man_made_disaster"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.NatuteDisaster"
+            android:label="@string/title_activity_natute_disaster"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.Introduction"
+            android:label="@string/title_activity_introduction"
+            android:parentActivityName="com.disaster.myapplication0.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.disaster.myapplication0.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.disaster.myapplication0.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

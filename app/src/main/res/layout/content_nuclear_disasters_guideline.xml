@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NuclearDisastersGuideline"
+    tools:showIn="@layout/activity_nuclear_disasters_guideline"
+    android:background="@drawable/ip25">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:text="@string/guideline"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:textSize="34dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnguidenucl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/NuGuid"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:background="#00FFFFFF"
+                android:textSize="18dp" />
+            <View
+                android:layout_width="210dp"
+                android:layout_height="2dp"
+                android:layout_alignParentRight="true"
+                android:background="#E40F0F" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

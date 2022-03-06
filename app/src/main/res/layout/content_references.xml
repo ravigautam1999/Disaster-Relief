@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".References"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_references"
+    android:background="@drawable/ip23"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_references"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textColor="@color/white1"
+        android:layout_marginBottom="12dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnwho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHO: www.who.int"
+        android:textAllCaps="false"
+        android:background="#00FFFFFF"
+        android:textAlignment="viewStart"
+        android:textColor="#FF0000"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FF0000" />
+    <Button
+        android:id="@+id/btnndma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NDMA: www.ndma.gov.in"
+        android:textAllCaps="false"
+        android:background="#00FFFFFF"
+        android:textAlignment="viewStart"
+        android:textColor="#FF0000"
+        />
+    <View
+        android:layout_width="160dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FF0000" />
+    <Button
+        android:id="@+id/btnnidm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIDM: www.nidm.gov.in"
+        android:textAllCaps="false"
+        android:background="#00FFFFFF"
+        android:textAlignment="viewStart"
+        android:textColor="#FF0000"
+        />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FF0000" />
+    <Button
+        android:id="@+id/btnndm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NDM India: www.ndmaindia.nic.in"
+        android:textAllCaps="false"
+        android:background="#00FFFFFF"
+        android:textAlignment="viewStart"
+        android:textColor="#FF0000"
+        />
+    <View
+        android:layout_width="210dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FF0000" />
+
+
+
+
+
+
+
+</LinearLayout>

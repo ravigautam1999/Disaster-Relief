@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HeatWave"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_heat_wave"
+    android:padding="20dp"
+    android:background="@drawable/ip25">
+
+
+    <Button
+        android:id="@+id/btnHeatwaveInfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Information"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnHeatwaveDo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Do's and Dont's"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnHeatwaveRecovery"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Recovery and Build"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+    <Button
+        android:id="@+id/btnHeatwaveEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="viewStart"
+        android:text="Emergency Kit"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:background="#00141642"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF" />
+</LinearLayout>

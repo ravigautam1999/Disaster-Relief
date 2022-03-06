@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".WebView"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_web_view"
+    android:background="#141642">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#141642"
+
+        >
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="#141642"
+            android:layout_marginStart="0dp"
+            android:textSize="24sp"
+            android:text="@string/back"
+            android:textColor="@color/white1"/>
+
+        <Button
+            android:id="@+id/btnfor"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:textSize="24sp"
+            android:background="#141642"
+            android:textColor="@color/white1"
+            android:text="@string/forword" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:background="#141642"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
